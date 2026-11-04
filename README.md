@@ -1,94 +1,93 @@
-# COS700 — Impact of Data Anonymisation on the Statistical Utility of Cybersecurity Datasets
-
+# COS700: Impact of Data Anonymisation on the Statistical Utility of Cybersecurity Datasets
+ 
 **Student:** Siphesihle Khumalo (u25759257)
 **Supervisor:** Prof. Eloff
 **Module:** COS700, University of Pretoria
-
+ 
 ## Overview
-
-This project implements a systematic, feature-level empirical analysis of how three
-anonymisation techniques — noise perturbation, suppression, and differential privacy —
-distort the statistical utility of the CICIDS-2017 benchmark cybersecurity dataset across
-all 78 numerical features.
-
-For each technique and intensity level, Jensen–Shannon Divergence (JSD), Wasserstein
-Distance, and KL Divergence are computed per feature. Spearman rank correlation between
-per-feature distortion scores and Random Forest Gini importance quantifies whether each
-technique preferentially damages the features most critical to IDS classification.
-
-## Project Structure
-
+ 
+This repository contains the code and results for a feature-level analysis of how three
+anonymisation techniques distort the statistical properties of the CICIDS-2017 dataset:
+ 
+- **Noise perturbation:** additive Gaussian noise scaled by α·σⱼ, α ∈ {0.1, 0.5}
+- **Suppression:** mean-imputation of 25 %, 50 % and 75 % of features, least important first
+- **Differential privacy:** per-value Laplace mechanism with data-independent clipping bounds,
+  ε ∈ {0.01, 0.1, 0.5, 1, 5, 10}, plus a clip-only baseline (ε → ∞)
+That gives 12 anonymised variants of the cleaned analysis set (2,520,798 flows, d = 68 features).
+For every feature and variant, the notebooks compute Jensen–Shannon divergence (JSD), normalised
+Wasserstein distance (W₁) and KL divergence. A Spearman rank correlation between each technique's
+distortion scores and Random Forest Gini importance tests whether a technique preferentially
+distorts the features that matter most for intrusion detection.
+ 
+## Repository structure
+ 
 ```
-Research/
-├── data/
-│   ├── raw/            # source CSVs (point to ~/Downloads/archive/)
-│   ├── processed/      # train.parquet, val.parquet, test.parquet
-│   └── anonymised/     # 11 anonymised training parquets
-├── src/
-│   ├── config.py       # all constants and paths
-│   ├── preprocessing.py
-│   ├── eda.py
-│   ├── anonymise.py
-│   ├── metrics.py
-│   └── visualise.py
-├── results/            # gini_importance.csv, metrics.csv, spearman.csv
-├── figures/
-│   ├── eda/            # 7 EDA figures
-│   └── experiment/     # 12 result figures
-├── tests/
-├── run_pipeline.py
-└── PLAN.md
+src/
+  NB1_preprocessing_eda_colab.ipynb   # cleaning, feature selection, DP bounds, Gini importance, EDA
+  NB2_anonymisation_colab.ipynb       # builds the 12 anonymised variants
+  NB3_metrics_colab.ipynb             # JSD, W1 and KL per feature; Spearman rho
+  NB4_visualisation_colab.ipynb       # heatmaps, epsilon-curve, Spearman plot, summary tables
+results/
+  feature_meta.csv            # per-feature category and DP clipping bounds [a_j, b_j], delta_f, source
+  gini_importance.csv         # Random Forest Gini (MDI) importance, 68 features, ranked
+  metrics.csv                 # JSD, W1 and KL for every feature x variant (816 rows)
+  spearman.csv                # Spearman rho and p-value per variant x metric (36 rows)
+  feature_metrics_table.csv   # wide table: one row per feature, all variants (written by NB4)
+  top15_features_by_jsd.csv   # the 15 features with the highest mean JSD (written by NB4)
+figures/
+  eda/                        # exploratory figures
 ```
-
-## Setup
-
-```bash
-cd /Users/siphesihlekhumalo/Desktop/Research
-pip install -r requirements.txt
+ 
+## Data (not included)
+ 
+The datasets are **not in this repository because they are too large for GitHub**. That covers:
+ 
+- the raw CICIDS-2017 CSV files;
+- `data/analysis.parquet`, the cleaned analysis set written by NB1;
+- `data/anonymised/*.parquet`, the 12 anonymised variants written by NB2.
+The files in `results/` are small and are included, so the reported numbers can be checked
+without rerunning anything.
+ 
+To reproduce the pipeline, download the CICIDS-2017 **MachineLearningCSV** files from the
+Canadian Institute for Cybersecurity: <https://www.unb.ca/cic/datasets/ids-2017.html>.
+NB1 reads every file matching `*.pcap_ISCX.csv`
+(e.g. `Monday-WorkingHours.pcap_ISCX.csv`) from the raw-data folder described below.
+ 
+## How to run the notebooks
+ 
+The notebooks are written for **Google Colab** and read and write files on Google Drive.
+ 
+1. **Create the folder layout on Google Drive.**
 ```
-
-The CICIDS-2017 dataset must be present at:
-`/Users/siphesihlekhumalo/Downloads/archive/` (8 `.pcap_ISCX.csv` files)
-
-## Running the Pipeline
-
-Run the full pipeline (each step runs sequentially):
-```bash
-python run_pipeline.py
+   MyDrive/COS700/
+     data/raw/        <- put the CICIDS-2017 *.pcap_ISCX.csv files here
 ```
-
-Run individual steps:
-```bash
-python -m src.preprocessing   # Step 1: load, clean, split → data/processed/
-python -m src.eda              # Step 2: EDA figures + gini_importance.csv
-python -m src.anonymise        # Step 3: 11 anonymised training sets
-python -m src.metrics          # Step 4: metrics.csv + spearman.csv
-python -m src.visualise        # Step 5: 12 result figures
-```
-
-Run all tests:
-```bash
-pytest tests/ -v
-```
-
-## Key Expected Values
-
-| Stage | Expected value |
-|-------|----------------|
-| Raw rows (8 CSVs) | ~2,830,743 |
-| After cleaning | ~2,270,000–2,400,000 |
-| Numeric features | 78 |
-| Attack classes | 14 (including BENIGN) |
-| Anonymised variants | 11 |
-| `metrics.csv` rows | 858 (11 × 78) |
-| `spearman.csv` rows | 33 (11 × 3) |
-| EDA figures | 7 |
-| Result figures | 12 |
-
-## Anonymisation Techniques
-
-| Technique | Levels | Output files |
-|-----------|--------|-------------|
-| Noise perturbation | σ ∈ {0.1, 0.5} | `train_noise_0.1.parquet`, `train_noise_0.5.parquet` |
-| Suppression | 25%, 50%, 75% | `train_suppression_0.25/0.50/0.75.parquet` |
-| Differential Privacy | ε ∈ {0.01, 0.1, 0.5, 1.0, 5.0, 10.0} | `train_dp_{ε}.parquet` |
+   The notebooks create `data/anonymised/`, `results/`, `figures/eda/` and
+   `figures/experiment/` themselves.
+   If you use a different folder, change `DRIVE_ROOT` in the first cell of **each** notebook
+   (default: `/content/drive/MyDrive/COS700`).
+ 
+2. **Open each notebook in Colab** (File → Upload notebook, or open it from GitHub) and run all
+   cells in order: **NB1 → NB2 → NB3 → NB4**. Each notebook mounts Google Drive on its first
+   cell; approve the access prompt.
+   | Notebook | Reads | Writes |
+   |---|---|---|
+   | NB1 | `data/raw/*.pcap_ISCX.csv` | `data/analysis.parquet`, `results/feature_meta.csv`, `results/gini_importance.csv`, `figures/eda/` |
+   | NB2 | `analysis.parquet`, `feature_meta.csv`, `gini_importance.csv` | `data/anonymised/*.parquet` (12 files) |
+   | NB3 | `analysis.parquet`, the 12 variants, `feature_meta.csv`, `gini_importance.csv` | `results/metrics.csv`, `results/spearman.csv` |
+   | NB4 | the four CSVs above, `analysis.parquet` | `figures/experiment/`, `results/feature_metrics_table.csv`, `results/top15_features_by_jsd.csv` |
+3. **Check the gate cells.** The last cell of each notebook runs checks (row counts, no NaN
+   values, metric ranges) and stops with an error if anything is wrong. Fix any failure before
+   running the next notebook.
+### Requirements
+ 
+The notebooks use packages that Colab provides by default: numpy, pandas, scipy, scikit-learn,
+matplotlib and seaborn. `pyarrow` is installed automatically by the first cell if missing.
+A high-RAM runtime is recommended, because the analysis set has about 2.5 million rows and the
+Random Forest is fitted on all of it.
+ 
+### Reproducibility
+ 
+All random steps use a fixed seed (42): the Random Forest, the Gaussian and Laplace noise draws,
+and the 10,000-row subsample used for W₁. Rerunning the notebooks on the same input files
+reproduces the files in `results/`.
