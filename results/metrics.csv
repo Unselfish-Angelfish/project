@@ -1,0 +1,817 @@
+variant,technique,level,design_forced,feature,category,jsd,wasserstein_norm,kl,jsd_clip_component,jsd_noise_component,wasserstein_norm_clip_component,wasserstein_norm_noise_component,kl_clip_component,kl_noise_component,w1_predicted,w1_departure
+noise_alpha0.1,noise,0.1,False,Flow Duration,Flow timing,0.10297786058775908,0.06277458670198209,0.2581343351520487,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Total Fwd Packets,Packet counts,1.3499285928608944e-07,0.07424999185809343,3.5152047622356306e-07,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Total Backward Packets,Packet counts,5.791197478258895e-07,0.07578660035004306,3.783629352447652e-06,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Total Length of Fwd Packets,Packet counts,2.041428667589431e-08,0.06513545343794211,5.7247010196998495e-08,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Total Length of Bwd Packets,Packet counts,4.6509047266523523e-07,0.07769654199726354,3.480389356541209e-06,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Fwd Packet Length Max,Packet lengths,0.0004973524945094613,0.04744661047141292,0.0012174732080774415,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Fwd Packet Length Min,Packet lengths,0.0007357504119729128,0.050758235506645065,0.001888906820770808,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Fwd Packet Length Mean,Packet lengths,0.007153045076940862,0.032497147835232956,0.01850943747354296,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Fwd Packet Length Std,Packet lengths,0.0007154025812032732,0.056603084563617526,0.0018755640916646042,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Bwd Packet Length Max,Packet lengths,0.09698802557523414,0.055399803561275794,0.24018957847737293,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Bwd Packet Length Min,Packet lengths,9.720837320653712e-05,0.04806620341338131,0.00026597538010903377,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Bwd Packet Length Mean,Packet lengths,0.02972467309736042,0.037213878529854014,0.07480133592707384,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Bwd Packet Length Std,Packet lengths,0.059639695750384566,0.0636531478421183,0.14031463016797877,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Flow Bytes/s,Rates & volumes,0.0199111840856395,0.07088510179795902,0.04013043011163387,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Flow Packets/s,Rates & volumes,0.07028245125356097,0.0607719557920524,0.1484174670724589,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Flow IAT Mean,Flow timing,0.0006456962110251,0.05763956942705754,0.0017159378036140937,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Flow IAT Std,Flow timing,0.028406216073834176,0.058698576967733306,0.0701276317955871,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Flow IAT Max,Flow timing,0.12524170873341314,0.06414376735939771,0.317554224863055,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Flow IAT Min,Flow timing,0.00012320816250607154,0.0784114214582043,0.0003144219728678084,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Fwd IAT Total,Flow timing,0.11267941276683965,0.06485234460049862,0.27622828986590914,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Fwd IAT Mean,Flow timing,0.02795800261577469,0.06195480423650373,0.06723170425495288,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Fwd IAT Std,Flow timing,0.05938538362636463,0.06441087852013247,0.1387551202480002,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Fwd IAT Max,Flow timing,0.13733276337250097,0.06640968854543024,0.34073201758525373,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Fwd IAT Min,Flow timing,0.04206524076587333,0.07801933249095842,0.08814450214613832,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Bwd IAT Total,Flow timing,0.1279303986056699,0.06975784593733282,0.30170050083751276,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Bwd IAT Mean,Flow timing,0.027009761887094395,0.068642377278389,0.06313834629373603,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Bwd IAT Std,Flow timing,0.03246975552525664,0.07008899216204195,0.07384150004921124,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Bwd IAT Max,Flow timing,0.1149340739791062,0.07269008900452589,0.27647763380476514,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Bwd IAT Min,Flow timing,0.03880689652732624,0.07881607648221457,0.08154222812683662,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Fwd PSH Flags,TCP flags,0.18285157242790853,0.08030024604007349,0.38731460825698166,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Fwd URG Flags,TCP flags,0.0,0.07960161883780656,0.0,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Fwd Header Length,Headers & window,2.463895731994115e-07,0.07995687503518213,5.490833752964477e-07,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Bwd Header Length,Headers & window,0.0,0.07883285977556313,0.0,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Fwd Packets/s,Rates & volumes,0.028045733170854764,0.06451190855553975,0.06574133692827257,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Bwd Packets/s,Rates & volumes,0.0007485297725439442,0.05941676555234282,0.0017334141321220112,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Min Packet Length,Packet lengths,0.001742695343619997,0.05006058267848497,0.004333040849037614,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Max Packet Length,Packet lengths,0.08600515976944786,0.054496303028333255,0.20699128361371918,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Packet Length Mean,Packet lengths,0.0137402978228162,0.032679606695844556,0.03581132300592675,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Packet Length Std,Packet lengths,0.03082887812692783,0.04304075696908235,0.07949185988746671,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Packet Length Variance,Packet lengths,0.013808497632507825,0.06259203725485583,0.03494914209276753,,,,,,,,
+noise_alpha0.1,noise,0.1,False,FIN Flag Count,TCP flags,0.15987955121061265,0.0800166697599382,0.3359559101650432,,,,,,,,
+noise_alpha0.1,noise,0.1,False,SYN Flag Count,TCP flags,0.1829033846441869,0.07979721348415195,0.3874314497354869,,,,,,,,
+noise_alpha0.1,noise,0.1,False,RST Flag Count,TCP flags,0.0,0.07930364219705931,0.0,,,,,,,,
+noise_alpha0.1,noise,0.1,False,PSH Flag Count,TCP flags,0.24558669825225515,0.08024781673576172,0.5324270488399307,,,,,,,,
+noise_alpha0.1,noise,0.1,False,ACK Flag Count,TCP flags,0.2465161103505205,0.0797627028629425,0.5346342171706485,,,,,,,,
+noise_alpha0.1,noise,0.1,False,URG Flag Count,TCP flags,0.21524741569309405,0.08046765158261857,0.46131705430504005,,,,,,,,
+noise_alpha0.1,noise,0.1,False,CWE Flag Count,TCP flags,0.0,0.07972301544936587,0.0,,,,,,,,
+noise_alpha0.1,noise,0.1,False,ECE Flag Count,TCP flags,0.0,0.07924526051675536,0.0,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Down/Up Ratio,Rates & volumes,1.8535966780175966e-06,0.0785085354089484,5.063808878448577e-06,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Average Packet Size,Packet lengths,0.014672608769142451,0.029574440129455357,0.03785596723464322,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Avg Fwd Segment Size,Packet lengths,0.007122228244502928,0.03183192068819296,0.01844711124518531,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Avg Bwd Segment Size,Packet lengths,0.029698954895054273,0.03717025876067876,0.07470322368320746,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Subflow Fwd Packets,Packet counts,2.9694637936570866e-07,0.07507108395677342,6.848848044447236e-07,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Subflow Fwd Bytes,Packet counts,3.841861452671641e-08,0.06609180276452535,1.0183474834887569e-07,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Subflow Bwd Packets,Packet counts,2.0397013819007638e-07,0.07716011340010824,5.155201211367451e-07,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Subflow Bwd Bytes,Packet counts,3.292119105411314e-07,0.07705670115373889,7.800616267582627e-07,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Init_Win_bytes_forward,Headers & window,0.22568544906672927,0.07076336688681623,0.5860049464644775,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Init_Win_bytes_backward,Headers & window,0.0931439584214253,0.06867941159319098,0.21788042203521707,,,,,,,,
+noise_alpha0.1,noise,0.1,False,act_data_pkt_fwd,Packet counts,3.815659125015566e-09,0.07609658005897507,1.0532545718531163e-08,,,,,,,,
+noise_alpha0.1,noise,0.1,False,min_seg_size_forward,Packet lengths,0.0,0.08104365401982926,0.0,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Active Mean,Flow timing,1.61815374385139e-06,0.07106790839476969,4.339618882906537e-06,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Active Std,Flow timing,7.683809644148342e-06,0.07600593411728132,2.0706943828544526e-05,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Active Max,Flow timing,2.404565020318165e-06,0.07162496787124747,1.1218175940194596e-05,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Active Min,Flow timing,4.798107831543995e-07,0.07230297414515026,1.3319168628702563e-06,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Idle Mean,Flow timing,0.17459722219993384,0.07064351300867786,0.40088703281961485,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Idle Std,Flow timing,0.017156075061686645,0.07801980951414204,0.03894185841358805,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Idle Max,Flow timing,0.18102066073875198,0.07236517848305965,0.41789750296832984,,,,,,,,
+noise_alpha0.1,noise,0.1,False,Idle Min,Flow timing,0.17039710879020578,0.06984608270305988,0.3855774021770616,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Flow Duration,Flow timing,0.1553084835149029,0.3304793373138676,0.40312117681760645,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Total Fwd Packets,Packet counts,1.0358200333233701e-06,0.38854753489657,7.338343451687214e-06,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Total Backward Packets,Packet counts,1.911193583144116e-06,0.39183351611974426,6.984259580375174e-06,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Total Length of Fwd Packets,Packet counts,6.376901288243954e-08,0.372334238262141,1.6390175170707587e-07,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Total Length of Bwd Packets,Packet counts,2.81719914376942e-06,0.3942424909034187,1.36963691381e-05,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Fwd Packet Length Max,Packet lengths,0.032329006317390406,0.3040366633451768,0.08233775309747994,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Fwd Packet Length Min,Packet lengths,0.026977143049576397,0.259426834463646,0.06129616707959752,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Fwd Packet Length Mean,Packet lengths,0.0636157986892225,0.2868256295750738,0.15952623040863517,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Fwd Packet Length Std,Packet lengths,0.03347991440188048,0.31077684909003084,0.08546092303215606,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Bwd Packet Length Max,Packet lengths,0.1786265190064385,0.29685408756309367,0.4684991392272278,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Bwd Packet Length Min,Packet lengths,0.024937589138994954,0.24698849359564046,0.06212751908574522,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Bwd Packet Length Mean,Packet lengths,0.1142496050265099,0.26839349557553044,0.3322081513182742,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Bwd Packet Length Std,Packet lengths,0.11596184500989816,0.30903549210349623,0.29708987067386383,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Flow Bytes/s,Rates & volumes,0.25687186382033667,0.3811415913529187,0.5659097198414915,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Flow Packets/s,Rates & volumes,0.44722340094169744,0.3545544521339162,1.1838310065533555,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Flow IAT Mean,Flow timing,0.056381260902308494,0.3179527520978623,0.14283076258181734,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Flow IAT Std,Flow timing,0.08289051508547114,0.32138682088690296,0.20330261512344658,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Flow IAT Max,Flow timing,0.16979427250062892,0.33384310985724186,0.4264713396697433,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Flow IAT Min,Flow timing,0.10988350887540128,0.4008474233325415,0.23182475482541126,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Fwd IAT Total,Flow timing,0.16632410931934224,0.3330671259772354,0.42309419120962005,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Fwd IAT Mean,Flow timing,0.08236219091205035,0.3258028905530804,0.21085820191584573,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Fwd IAT Std,Flow timing,0.11075207720243771,0.33176860563126004,0.2680944214644807,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Fwd IAT Max,Flow timing,0.18071103230305396,0.340233804782963,0.4506248717614316,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Fwd IAT Min,Flow timing,0.2067371192686727,0.39101596457976306,0.45901405830290115,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Bwd IAT Total,Flow timing,0.18114351164124312,0.3581521629843082,0.44756997183925484,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Bwd IAT Mean,Flow timing,0.11012470545174464,0.35096786732568774,0.27320167056191164,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Bwd IAT Std,Flow timing,0.12773159268865975,0.35490022950896344,0.3063808425898093,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Bwd IAT Max,Flow timing,0.19276866679520716,0.3549313729456803,0.4640062699413536,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Bwd IAT Min,Flow timing,0.20932016518350527,0.39376149066601557,0.4621642364361737,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Fwd PSH Flags,TCP flags,0.2827805353784079,0.4015012302003677,0.6222156900576,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Fwd URG Flags,TCP flags,9.48170186621419e-05,0.3980080941890331,0.00018964062298394054,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Fwd Header Length,Headers & window,7.921598625747586e-07,0.399809085307365,7.123964694229127e-06,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Bwd Header Length,Headers & window,0.0,0.39451629500749025,0.0,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Fwd Packets/s,Rates & volumes,0.17724446664649443,0.36708254905198645,0.4189566644838469,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Bwd Packets/s,Rates & volumes,0.04052119769861909,0.32882285165994785,0.09735127420448482,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Min Packet Length,Packet lengths,0.06629896761231029,0.2708640725692303,0.14863161750319032,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Max Packet Length,Packet lengths,0.1575256520440712,0.2884530142159017,0.41452332319982615,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Packet Length Mean,Packet lengths,0.08678878861457988,0.25007707132953383,0.25461875418839147,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Packet Length Std,Packet lengths,0.0685812671528724,0.2790710779467171,0.18142026393122024,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Packet Length Variance,Packet lengths,0.10176150903247916,0.3349936516879415,0.24891376132319276,,,,,,,,
+noise_alpha0.5,noise,0.5,False,FIN Flag Count,TCP flags,0.2764481046442045,0.40008334879969115,0.6067132333560801,,,,,,,,
+noise_alpha0.5,noise,0.5,False,SYN Flag Count,TCP flags,0.28237366668708097,0.3989860674207591,0.6212168220445927,,,,,,,,
+noise_alpha0.5,noise,0.5,False,RST Flag Count,TCP flags,0.058908127754045324,0.39651821098529744,0.11984002169978036,,,,,,,,
+noise_alpha0.5,noise,0.5,False,PSH Flag Count,TCP flags,0.29725326845587047,0.3963290132189239,0.6579958100268926,,,,,,,,
+noise_alpha0.5,noise,0.5,False,ACK Flag Count,TCP flags,0.2974677861071875,0.39393261789288747,0.6585294002338853,,,,,,,,
+noise_alpha0.5,noise,0.5,False,URG Flag Count,TCP flags,0.28994143643896797,0.40233825791309386,0.6398574361044775,,,,,,,,
+noise_alpha0.5,noise,0.5,False,CWE Flag Count,TCP flags,8.747711565975298e-05,0.39861507724682826,0.00017496006923521784,,,,,,,,
+noise_alpha0.5,noise,0.5,False,ECE Flag Count,TCP flags,0.05896045143390357,0.3962263025837765,0.11994839224790545,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Down/Up Ratio,Rates & volumes,0.005168514030927717,0.3586303002143631,0.012736674978827717,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Average Packet Size,Packet lengths,0.07365311508953526,0.23296815545102256,0.21086908476992444,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Avg Fwd Segment Size,Packet lengths,0.06382303534005236,0.2875204922245651,0.16011465528244737,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Avg Bwd Segment Size,Packet lengths,0.11421345299420242,0.2644798309228492,0.33199521906425444,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Subflow Fwd Packets,Packet counts,2.5010835610530887e-06,0.39194395920663516,1.3101516858641382e-05,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Subflow Fwd Bytes,Packet counts,8.362429985582459e-08,0.3732138359408485,2.271822625195156e-07,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Subflow Bwd Packets,Packet counts,7.15348822098411e-07,0.39886732741033776,1.7786701023555266e-06,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Subflow Bwd Bytes,Packet counts,1.9462026141168576e-06,0.39092047795579443,1.4343998310352343e-05,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Init_Win_bytes_forward,Headers & window,0.31674085405199626,0.3252853599719061,0.914017859294019,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Init_Win_bytes_backward,Headers & window,0.2013073659695773,0.3743849948144268,0.47761558034237067,,,,,,,,
+noise_alpha0.5,noise,0.5,False,act_data_pkt_fwd,Packet counts,3.662872467053897e-07,0.3930566133634255,1.009526797476999e-06,,,,,,,,
+noise_alpha0.5,noise,0.5,False,min_seg_size_forward,Packet lengths,0.0,0.40523923590256367,0.0,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Active Mean,Flow timing,0.00011538470961731568,0.3724305497761568,0.00032519873275014427,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Active Std,Flow timing,3.885185369038773e-05,0.38450206026952466,0.00010726216534068294,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Active Max,Flow timing,0.004572411973915609,0.37160357423172624,0.01104280455478431,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Active Min,Flow timing,2.3419996119866968e-05,0.3792974235755244,7.031957844179192e-05,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Idle Mean,Flow timing,0.2091477426574106,0.3417399131056991,0.5112257813752897,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Idle Std,Flow timing,0.18584219202231897,0.39369372505288247,0.4145050326822541,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Idle Max,Flow timing,0.21884154188448213,0.3508854713012927,0.53074880504169,,,,,,,,
+noise_alpha0.5,noise,0.5,False,Idle Min,Flow timing,0.20218784542241874,0.3478456014550632,0.49162075978669484,,,,,,,,
+suppression_0.25,suppression,0.25,True,Flow Duration,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Total Fwd Packets,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Total Backward Packets,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Total Length of Fwd Packets,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Total Length of Bwd Packets,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Fwd Packet Length Max,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Fwd Packet Length Min,Packet lengths,0.21061368498419827,0.35776773828022257,7.405753621806281,,,,,,,,
+suppression_0.25,suppression,0.25,True,Fwd Packet Length Mean,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Fwd Packet Length Std,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Bwd Packet Length Max,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Bwd Packet Length Min,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Bwd Packet Length Mean,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Bwd Packet Length Std,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Flow Bytes/s,Rates & volumes,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Flow Packets/s,Rates & volumes,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Flow IAT Mean,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Flow IAT Std,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Flow IAT Max,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Flow IAT Min,Flow timing,0.0030746053859355255,0.09957122916255548,0.08554804539043856,,,,,,,,
+suppression_0.25,suppression,0.25,True,Fwd IAT Total,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Fwd IAT Mean,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Fwd IAT Std,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Fwd IAT Max,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Fwd IAT Min,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Bwd IAT Total,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Bwd IAT Mean,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Bwd IAT Std,Flow timing,0.9514752131573042,0.42114719340419937,21.91846299941668,,,,,,,,
+suppression_0.25,suppression,0.25,True,Bwd IAT Max,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Bwd IAT Min,Flow timing,0.012080181027132222,0.22975164735788672,0.3396872906552832,,,,,,,,
+suppression_0.25,suppression,0.25,True,Fwd PSH Flags,TCP flags,0.9999999853223462,0.4040514826282756,22.831275341565394,,,,,,,,
+suppression_0.25,suppression,0.25,True,Fwd URG Flags,TCP flags,1.586728656067085e-05,0.005633559196716718,0.00037029068754430475,,,,,,,,
+suppression_0.25,suppression,0.25,True,Fwd Header Length,Headers & window,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Bwd Header Length,Headers & window,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Fwd Packets/s,Rates & volumes,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Bwd Packets/s,Rates & volumes,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Min Packet Length,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Max Packet Length,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Packet Length Mean,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Packet Length Std,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Packet Length Variance,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,FIN Flag Count,TCP flags,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,SYN Flag Count,TCP flags,0.9999999853223462,0.4040514826282756,22.831275341565394,,,,,,,,
+suppression_0.25,suppression,0.25,True,RST Flag Count,TCP flags,0.00013608033782457413,0.022558191665609493,0.0037600450277295184,,,,,,,,
+suppression_0.25,suppression,0.25,True,PSH Flag Count,TCP flags,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,ACK Flag Count,TCP flags,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,URG Flag Count,TCP flags,0.999999985273514,0.6052999631027598,22.69771796917967,,,,,,,,
+suppression_0.25,suppression,0.25,True,CWE Flag Count,TCP flags,1.586728656067085e-05,0.005633559196716718,0.00037029068754430475,,,,,,,,
+suppression_0.25,suppression,0.25,True,ECE Flag Count,TCP flags,0.00013667550425716868,0.02258102130797166,0.0037776812273103144,,,,,,,,
+suppression_0.25,suppression,0.25,True,Down/Up Ratio,Rates & volumes,0.01510841689889934,0.708179627106897,0.5320470220958682,,,,,,,,
+suppression_0.25,suppression,0.25,True,Average Packet Size,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Avg Fwd Segment Size,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Avg Bwd Segment Size,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Subflow Fwd Packets,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Subflow Fwd Bytes,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Subflow Bwd Packets,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Subflow Bwd Bytes,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Init_Win_bytes_forward,Headers & window,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Init_Win_bytes_backward,Headers & window,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,act_data_pkt_fwd,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,min_seg_size_forward,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Active Mean,Flow timing,0.008979261071817802,0.22838752920846325,0.2894202206525601,,,,,,,,
+suppression_0.25,suppression,0.25,True,Active Std,Flow timing,0.008089285077349887,0.19517768939000493,0.26229002243631566,,,,,,,,
+suppression_0.25,suppression,0.25,True,Active Max,Flow timing,0.018039684615395048,0.2706672150396793,0.5981629233886316,,,,,,,,
+suppression_0.25,suppression,0.25,True,Active Min,Flow timing,0.006321746755203237,0.18781142349893573,0.19912123823161523,,,,,,,,
+suppression_0.25,suppression,0.25,True,Idle Mean,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Idle Std,Flow timing,0.014331933962140803,0.219403497588169,0.43219987025792445,,,,,,,,
+suppression_0.25,suppression,0.25,True,Idle Max,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.25,suppression,0.25,True,Idle Min,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Flow Duration,Flow timing,0.9894382309472411,0.721917883265397,21.21849075229153,,,,,,,,
+suppression_0.50,suppression,0.5,True,Total Fwd Packets,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Total Backward Packets,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Total Length of Fwd Packets,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Total Length of Bwd Packets,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Fwd Packet Length Max,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Fwd Packet Length Min,Packet lengths,0.21061368498419827,0.35776773828022257,7.405753621806281,,,,,,,,
+suppression_0.50,suppression,0.5,True,Fwd Packet Length Mean,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Fwd Packet Length Std,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Bwd Packet Length Max,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Bwd Packet Length Min,Packet lengths,0.8587337726271906,0.7571085012626254,20.540818466783772,,,,,,,,
+suppression_0.50,suppression,0.5,True,Bwd Packet Length Mean,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Bwd Packet Length Std,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Flow Bytes/s,Rates & volumes,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Flow Packets/s,Rates & volumes,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Flow IAT Mean,Flow timing,0.8425420215389301,0.45098204121363994,20.756315918124514,,,,,,,,
+suppression_0.50,suppression,0.5,True,Flow IAT Std,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Flow IAT Max,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Flow IAT Min,Flow timing,0.0030746053859355255,0.09957122916255548,0.08554804539043856,,,,,,,,
+suppression_0.50,suppression,0.5,True,Fwd IAT Total,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Fwd IAT Mean,Flow timing,0.8993064664509307,0.44086539525444096,21.110145947866688,,,,,,,,
+suppression_0.50,suppression,0.5,True,Fwd IAT Std,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Fwd IAT Max,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Fwd IAT Min,Flow timing,0.012783948751251115,0.22994835387586204,0.35925000772526183,,,,,,,,
+suppression_0.50,suppression,0.5,True,Bwd IAT Total,Flow timing,0.9795462845051608,0.6173483381930458,21.752119500796848,,,,,,,,
+suppression_0.50,suppression,0.5,True,Bwd IAT Mean,Flow timing,0.9319639845130097,0.35599041997016967,21.763973597950443,,,,,,,,
+suppression_0.50,suppression,0.5,True,Bwd IAT Std,Flow timing,0.9514752131573042,0.42114719340419937,21.91846299941668,,,,,,,,
+suppression_0.50,suppression,0.5,True,Bwd IAT Max,Flow timing,0.9666358030972301,0.4753816183828153,21.904050507502244,,,,,,,,
+suppression_0.50,suppression,0.5,True,Bwd IAT Min,Flow timing,0.012080181027132222,0.22975164735788672,0.3396872906552832,,,,,,,,
+suppression_0.50,suppression,0.5,True,Fwd PSH Flags,TCP flags,0.9999999853223462,0.4040514826282756,22.831275341565394,,,,,,,,
+suppression_0.50,suppression,0.5,True,Fwd URG Flags,TCP flags,1.586728656067085e-05,0.005633559196716718,0.00037029068754430475,,,,,,,,
+suppression_0.50,suppression,0.5,True,Fwd Header Length,Headers & window,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Bwd Header Length,Headers & window,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Fwd Packets/s,Rates & volumes,0.8977282446907064,0.3504262828158148,21.825860910891198,,,,,,,,
+suppression_0.50,suppression,0.5,True,Bwd Packets/s,Rates & volumes,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Min Packet Length,Packet lengths,0.963366958080696,0.7746373486516311,21.769645606842595,,,,,,,,
+suppression_0.50,suppression,0.5,True,Max Packet Length,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Packet Length Mean,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Packet Length Std,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Packet Length Variance,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,FIN Flag Count,TCP flags,0.9999999853511312,0.3514694708815969,22.883898541678874,,,,,,,,
+suppression_0.50,suppression,0.5,True,SYN Flag Count,TCP flags,0.9999999853223462,0.4040514826282756,22.831275341565394,,,,,,,,
+suppression_0.50,suppression,0.5,True,RST Flag Count,TCP flags,0.00013608033782457413,0.022558191665609493,0.0037600450277295184,,,,,,,,
+suppression_0.50,suppression,0.5,True,PSH Flag Count,TCP flags,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,ACK Flag Count,TCP flags,0.9999999852117147,0.9216653193524749,22.405260187669956,,,,,,,,
+suppression_0.50,suppression,0.5,True,URG Flag Count,TCP flags,0.999999985273514,0.6052999631027598,22.69771796917967,,,,,,,,
+suppression_0.50,suppression,0.5,True,CWE Flag Count,TCP flags,1.586728656067085e-05,0.005633559196716718,0.00037029068754430475,,,,,,,,
+suppression_0.50,suppression,0.5,True,ECE Flag Count,TCP flags,0.00013667550425716868,0.02258102130797166,0.0037776812273103144,,,,,,,,
+suppression_0.50,suppression,0.5,True,Down/Up Ratio,Rates & volumes,0.01510841689889934,0.708179627106897,0.5320470220958682,,,,,,,,
+suppression_0.50,suppression,0.5,True,Average Packet Size,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Avg Fwd Segment Size,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Avg Bwd Segment Size,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Subflow Fwd Packets,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Subflow Fwd Bytes,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Subflow Bwd Packets,Packet counts,5.531543493327113e-05,0.010636411642364466,0.001178890324385032,,,,,,,,
+suppression_0.50,suppression,0.5,True,Subflow Bwd Bytes,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Init_Win_bytes_forward,Headers & window,0.9975397629785799,0.6819532289365194,21.682996390618175,,,,,,,,
+suppression_0.50,suppression,0.5,True,Init_Win_bytes_backward,Headers & window,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,act_data_pkt_fwd,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,min_seg_size_forward,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.50,suppression,0.5,True,Active Mean,Flow timing,0.008979261071817802,0.22838752920846325,0.2894202206525601,,,,,,,,
+suppression_0.50,suppression,0.5,True,Active Std,Flow timing,0.008089285077349887,0.19517768939000493,0.26229002243631566,,,,,,,,
+suppression_0.50,suppression,0.5,True,Active Max,Flow timing,0.018039684615395048,0.2706672150396793,0.5981629233886316,,,,,,,,
+suppression_0.50,suppression,0.5,True,Active Min,Flow timing,0.006321746755203237,0.18781142349893573,0.19912123823161523,,,,,,,,
+suppression_0.50,suppression,0.5,True,Idle Mean,Flow timing,0.9697327809261242,0.5827293086194059,21.643497780574155,,,,,,,,
+suppression_0.50,suppression,0.5,True,Idle Std,Flow timing,0.014331933962140803,0.219403497588169,0.43219987025792445,,,,,,,,
+suppression_0.50,suppression,0.5,True,Idle Max,Flow timing,0.8039296841110897,0.5910702594763033,20.09735664200823,,,,,,,,
+suppression_0.50,suppression,0.5,True,Idle Min,Flow timing,0.9675180113075023,0.5646602233201685,21.651384182283074,,,,,,,,
+suppression_0.75,suppression,0.75,True,Flow Duration,Flow timing,0.9894382309472411,0.721917883265397,21.21849075229153,,,,,,,,
+suppression_0.75,suppression,0.75,True,Total Fwd Packets,Packet counts,5.630400392592774e-05,0.011445976867020534,0.0011936956760043719,,,,,,,,
+suppression_0.75,suppression,0.75,True,Total Backward Packets,Packet counts,5.531543493327113e-05,0.010636411642364466,0.001178890324385032,,,,,,,,
+suppression_0.75,suppression,0.75,True,Total Length of Fwd Packets,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.75,suppression,0.75,True,Total Length of Bwd Packets,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.75,suppression,0.75,True,Fwd Packet Length Max,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.75,suppression,0.75,True,Fwd Packet Length Min,Packet lengths,0.21061368498419827,0.35776773828022257,7.405753621806281,,,,,,,,
+suppression_0.75,suppression,0.75,True,Fwd Packet Length Mean,Packet lengths,0.7278585543814153,0.3150616237455623,19.538254797406022,,,,,,,,
+suppression_0.75,suppression,0.75,True,Fwd Packet Length Std,Packet lengths,0.7344417405793098,0.37340519781977566,19.375159508715193,,,,,,,,
+suppression_0.75,suppression,0.75,True,Bwd Packet Length Max,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.75,suppression,0.75,True,Bwd Packet Length Min,Packet lengths,0.8587337726271906,0.7571085012626254,20.540818466783772,,,,,,,,
+suppression_0.75,suppression,0.75,True,Bwd Packet Length Mean,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.75,suppression,0.75,True,Bwd Packet Length Std,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.75,suppression,0.75,True,Flow Bytes/s,Rates & volumes,0.0030176784080343786,0.07522150939266897,0.09109453522488718,,,,,,,,
+suppression_0.75,suppression,0.75,True,Flow Packets/s,Rates & volumes,0.839594262759947,0.36504731688081854,21.160340552743833,,,,,,,,
+suppression_0.75,suppression,0.75,True,Flow IAT Mean,Flow timing,0.8425420215389301,0.45098204121363994,20.756315918124514,,,,,,,,
+suppression_0.75,suppression,0.75,True,Flow IAT Std,Flow timing,0.9073950872269405,0.5755082161916981,20.931208846831336,,,,,,,,
+suppression_0.75,suppression,0.75,True,Flow IAT Max,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.75,suppression,0.75,True,Flow IAT Min,Flow timing,0.0030746053859355255,0.09957122916255548,0.08554804539043856,,,,,,,,
+suppression_0.75,suppression,0.75,True,Fwd IAT Total,Flow timing,0.9933004597324171,0.7193221330588921,21.3468358741367,,,,,,,,
+suppression_0.75,suppression,0.75,True,Fwd IAT Mean,Flow timing,0.8993064664509307,0.44086539525444096,21.110145947866688,,,,,,,,
+suppression_0.75,suppression,0.75,True,Fwd IAT Std,Flow timing,0.0,0.0,0.0,,,,,,,,
+suppression_0.75,suppression,0.75,True,Fwd IAT Max,Flow timing,0.8081794829150003,0.5956638711353139,19.92114573109685,,,,,,,,
+suppression_0.75,suppression,0.75,True,Fwd IAT Min,Flow timing,0.012783948751251115,0.22994835387586204,0.35925000772526183,,,,,,,,
+suppression_0.75,suppression,0.75,True,Bwd IAT Total,Flow timing,0.9795462845051608,0.6173483381930458,21.752119500796848,,,,,,,,
+suppression_0.75,suppression,0.75,True,Bwd IAT Mean,Flow timing,0.9319639845130097,0.35599041997016967,21.763973597950443,,,,,,,,
+suppression_0.75,suppression,0.75,True,Bwd IAT Std,Flow timing,0.9514752131573042,0.42114719340419937,21.91846299941668,,,,,,,,
+suppression_0.75,suppression,0.75,True,Bwd IAT Max,Flow timing,0.9666358030972301,0.4753816183828153,21.904050507502244,,,,,,,,
+suppression_0.75,suppression,0.75,True,Bwd IAT Min,Flow timing,0.012080181027132222,0.22975164735788672,0.3396872906552832,,,,,,,,
+suppression_0.75,suppression,0.75,True,Fwd PSH Flags,TCP flags,0.9999999853223462,0.4040514826282756,22.831275341565394,,,,,,,,
+suppression_0.75,suppression,0.75,True,Fwd URG Flags,TCP flags,1.586728656067085e-05,0.005633559196716718,0.00037029068754430475,,,,,,,,
+suppression_0.75,suppression,0.75,True,Fwd Header Length,Headers & window,0.0,0.0,0.0,,,,,,,,
+suppression_0.75,suppression,0.75,True,Bwd Header Length,Headers & window,4.361600607890479e-06,0.0017700766633112586,8.220890899728495e-05,,,,,,,,
+suppression_0.75,suppression,0.75,True,Fwd Packets/s,Rates & volumes,0.8977282446907064,0.3504262828158148,21.825860910891198,,,,,,,,
+suppression_0.75,suppression,0.75,True,Bwd Packets/s,Rates & volumes,0.033592220614000426,0.2558002016742192,1.1814273646419977,,,,,,,,
+suppression_0.75,suppression,0.75,True,Min Packet Length,Packet lengths,0.963366958080696,0.7746373486516311,21.769645606842595,,,,,,,,
+suppression_0.75,suppression,0.75,True,Max Packet Length,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.75,suppression,0.75,True,Packet Length Mean,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.75,suppression,0.75,True,Packet Length Std,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.75,suppression,0.75,True,Packet Length Variance,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.75,suppression,0.75,True,FIN Flag Count,TCP flags,0.9999999853511312,0.3514694708815969,22.883898541678874,,,,,,,,
+suppression_0.75,suppression,0.75,True,SYN Flag Count,TCP flags,0.9999999853223462,0.4040514826282756,22.831275341565394,,,,,,,,
+suppression_0.75,suppression,0.75,True,RST Flag Count,TCP flags,0.00013608033782457413,0.022558191665609493,0.0037600450277295184,,,,,,,,
+suppression_0.75,suppression,0.75,True,PSH Flag Count,TCP flags,0.9999999852136119,0.9195402191475445,22.41702632687611,,,,,,,,
+suppression_0.75,suppression,0.75,True,ACK Flag Count,TCP flags,0.9999999852117147,0.9216653193524749,22.405260187669956,,,,,,,,
+suppression_0.75,suppression,0.75,True,URG Flag Count,TCP flags,0.999999985273514,0.6052999631027598,22.69771796917967,,,,,,,,
+suppression_0.75,suppression,0.75,True,CWE Flag Count,TCP flags,1.586728656067085e-05,0.005633559196716718,0.00037029068754430475,,,,,,,,
+suppression_0.75,suppression,0.75,True,ECE Flag Count,TCP flags,0.00013667550425716868,0.02258102130797166,0.0037776812273103144,,,,,,,,
+suppression_0.75,suppression,0.75,True,Down/Up Ratio,Rates & volumes,0.01510841689889934,0.708179627106897,0.5320470220958682,,,,,,,,
+suppression_0.75,suppression,0.75,True,Average Packet Size,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.75,suppression,0.75,True,Avg Fwd Segment Size,Packet lengths,0.7278585543814153,0.3150616237455623,19.538254797406022,,,,,,,,
+suppression_0.75,suppression,0.75,True,Avg Bwd Segment Size,Packet lengths,0.0,0.0,0.0,,,,,,,,
+suppression_0.75,suppression,0.75,True,Subflow Fwd Packets,Packet counts,5.630400392592774e-05,0.011445976867020534,0.0011936956760043719,,,,,,,,
+suppression_0.75,suppression,0.75,True,Subflow Fwd Bytes,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.75,suppression,0.75,True,Subflow Bwd Packets,Packet counts,5.531543493327113e-05,0.010636411642364466,0.001178890324385032,,,,,,,,
+suppression_0.75,suppression,0.75,True,Subflow Bwd Bytes,Packet counts,0.0,0.0,0.0,,,,,,,,
+suppression_0.75,suppression,0.75,True,Init_Win_bytes_forward,Headers & window,0.9975397629785799,0.6819532289365194,21.682996390618175,,,,,,,,
+suppression_0.75,suppression,0.75,True,Init_Win_bytes_backward,Headers & window,0.9810637022799735,0.4336649991656951,22.2564609215029,,,,,,,,
+suppression_0.75,suppression,0.75,True,act_data_pkt_fwd,Packet counts,3.46914603889781e-05,0.008318326386596188,0.0007055003011260755,,,,,,,,
+suppression_0.75,suppression,0.75,True,min_seg_size_forward,Packet lengths,6.7423901125740475e-06,0.0027033337903037457,0.00013734361983728545,,,,,,,,
+suppression_0.75,suppression,0.75,True,Active Mean,Flow timing,0.008979261071817802,0.22838752920846325,0.2894202206525601,,,,,,,,
+suppression_0.75,suppression,0.75,True,Active Std,Flow timing,0.008089285077349887,0.19517768939000493,0.26229002243631566,,,,,,,,
+suppression_0.75,suppression,0.75,True,Active Max,Flow timing,0.018039684615395048,0.2706672150396793,0.5981629233886316,,,,,,,,
+suppression_0.75,suppression,0.75,True,Active Min,Flow timing,0.006321746755203237,0.18781142349893573,0.19912123823161523,,,,,,,,
+suppression_0.75,suppression,0.75,True,Idle Mean,Flow timing,0.9697327809261242,0.5827293086194059,21.643497780574155,,,,,,,,
+suppression_0.75,suppression,0.75,True,Idle Std,Flow timing,0.014331933962140803,0.219403497588169,0.43219987025792445,,,,,,,,
+suppression_0.75,suppression,0.75,True,Idle Max,Flow timing,0.8039296841110897,0.5910702594763033,20.09735664200823,,,,,,,,
+suppression_0.75,suppression,0.75,True,Idle Min,Flow timing,0.9675180113075023,0.5646602233201685,21.651384182283074,,,,,,,,
+dp_eps0.01,dp,0.01,True,Flow Duration,Flow timing,0.38153112355845714,342.31692756673954,1.716840861798893,0.0,0.38153112355845714,0.0,342.31692756673954,0.0,1.716840861798893,340.59207969956697,1.7248478671725707
+dp_eps0.01,dp,0.01,True,Total Fwd Packets,Packet counts,0.31108031402628733,29583815.668120094,0.6936767178697543,0.0,0.31108031402628733,0.0,29583815.668120094,0.0,0.6936767178697543,29502653.035112683,81162.63300741091
+dp_eps0.01,dp,0.01,True,Total Backward Packets,Packet counts,0.3111151310657393,22332486.049231146,0.6937313405608622,0.0,0.3111151310657393,0.0,22332486.049231146,0.0,0.6937313405608622,22175238.834986668,157247.21424447745
+dp_eps0.01,dp,0.01,True,Total Length of Fwd Packets,Packet counts,0.3117655985598832,146098242728.00555,0.6958678127962942,0.0,0.3117655985598832,0.0,146098242728.00555,0.0,0.6958678127962942,145064018264.60977,1034224463.3957825
+dp_eps0.01,dp,0.01,True,Total Length of Bwd Packets,Packet counts,0.31144214082082605,643373777.8787785,0.6944723462443009,0.0,0.31144214082082605,0.0,643373777.8787785,0.0,0.6944723462443009,640476624.3171729,2897153.5616055727
+dp_eps0.01,dp,0.01,True,Fwd Packet Length Max,Packet lengths,0.385783528438112,8625.766884091165,2.192190960687601,0.0,0.385783528438112,0.0,8625.766884091165,0.0,2.192190960687601,8664.346903928013,-38.580019836848805
+dp_eps0.01,dp,0.01,True,Fwd Packet Length Min,Packet lengths,0.4372229884062022,107177.76200547366,4.370066959929871,0.0,0.4372229884062022,0.0,107177.76200547366,0.0,4.370066959929871,107790.77848151108,-613.0164760374173
+dp_eps0.01,dp,0.01,True,Fwd Packet Length Mean,Packet lengths,0.37055960000741156,33458.36339612963,2.113378718048154,0.0,0.37055960000741156,0.0,33458.36339612963,0.0,2.113378718048154,33512.726960338914,-54.36356420928496
+dp_eps0.01,dp,0.01,True,Fwd Packet Length Std,Packet lengths,0.3941617710950665,22032.611421396887,2.603557210471496,0.0,0.3941617710950665,0.0,22032.611421396887,0.0,2.603557210471496,22074.47403482838,-41.86261343149454
+dp_eps0.01,dp,0.01,True,Bwd Packet Length Max,Packet lengths,0.4140896018949335,3237.6475784639256,2.4836880083159443,0.0,0.4140896018949335,0.0,3237.6475784639256,0.0,2.4836880083159443,3215.1051608813186,22.54241758260696
+dp_eps0.01,dp,0.01,True,Bwd Packet Length Min,Packet lengths,0.4391531344227216,94382.55935377513,3.8165852942133864,0.0,0.4391531344227216,0.0,94382.55935377513,0.0,3.8165852942133864,92459.4501247149,1923.1092290602246
+dp_eps0.01,dp,0.01,True,Bwd Packet Length Mean,Packet lengths,0.5460012918540671,10289.104459186041,5.478573500239922,0.0,0.5460012918540671,0.0,10289.104459186041,0.0,5.478573500239922,10360.22348621826,-71.11902703221858
+dp_eps0.01,dp,0.01,True,Bwd Packet Length Std,Packet lengths,0.40235698494087363,7470.115346955216,2.3520013981642576,0.0,0.40235698494087363,0.0,7470.115346955216,0.0,2.3520013981642576,7438.244115636139,31.871231319077197
+dp_eps0.01,dp,0.01,True,Flow Bytes/s,Rates & volumes,0.987997176393296,471.93833048374177,6.950580242000037,0.0010278079618858155,0.9869693684314101,0.010846478640141172,471.92748400510163,0.01738323801967163,6.933197003980366,470.44051391151214,1.497816572229624
+dp_eps0.01,dp,0.01,True,Flow Packets/s,Rates & volumes,0.991747845395223,957.8955543090091,8.186803963912023,0.006053432995836729,0.9856944123993863,0.001973977782878242,957.8935803312262,0.10801522908735217,8.078788734824672,963.856148115232,-5.96059380622296
+dp_eps0.01,dp,0.01,True,Flow IAT Mean,Flow timing,0.37075111099145597,2551.531908740359,1.6132794585585102,0.0,0.37075111099145597,0.0,2551.531908740359,0.0,1.6132794585585102,2562.3524424403,-10.820533699940825
+dp_eps0.01,dp,0.01,True,Flow IAT Std,Flow timing,0.3940887096078815,1442.5726620082896,1.874455705152608,0.0,0.3940887096078815,0.0,1442.5726620082896,0.0,1.874455705152608,1418.9842424445603,23.588419563729303
+dp_eps0.01,dp,0.01,True,Flow IAT Max,Flow timing,0.39655270977500645,465.79813221428833,1.9210534533702275,0.0,0.39655270977500645,0.0,465.79813221428833,0.0,1.9210534533702275,467.1920459533207,-1.3939137390323708
+dp_eps0.01,dp,0.01,True,Flow IAT Min,Flow timing,0.30969178706077005,4032.8784734240776,0.6933166241631412,0.0,0.30969178706077005,5.308025769478766e-10,4032.878473423547,0.0,0.6933166241631412,3981.01853747426,51.859935949817555
+dp_eps0.01,dp,0.01,True,Fwd IAT Total,Flow timing,0.3695276127505331,342.81129625839253,1.5831857817795894,0.0,0.3695276127505331,0.0,342.81129625839253,0.0,1.5831857817795894,341.2349829020787,1.5763133563138467
+dp_eps0.01,dp,0.01,True,Fwd IAT Mean,Flow timing,0.3698196552290009,1183.620680973707,1.5163292706439566,0.0,0.3698196552290009,0.0,1183.620680973707,0.0,1.5163292706439566,1198.035889009155,-14.415208035447904
+dp_eps0.01,dp,0.01,True,Fwd IAT Std,Flow timing,0.3827976362155712,1204.570449553407,1.7063984554764757,0.0,0.3827976362155712,0.0,1204.570449553407,0.0,1.7063984554764757,1183.1897990477776,21.38065050562932
+dp_eps0.01,dp,0.01,True,Fwd IAT Max,Flow timing,0.38698280049824907,473.1799574326904,1.775848838199116,0.0,0.38698280049824907,0.0,473.1799574326904,0.0,1.775848838199116,465.7210107337141,7.45894669897632
+dp_eps0.01,dp,0.01,True,Fwd IAT Min,Flow timing,0.30916168705608016,1326.5465570344893,0.7017256678010435,0.0,0.30916168705608016,0.0,1326.5465570344893,0.0,0.7017256678010435,1324.5767043072804,1.969852727208945
+dp_eps0.01,dp,0.01,True,Bwd IAT Total,Flow timing,0.3399785986160066,388.09334947414027,1.1306680659348167,0.0,0.3399785986160066,0.0,388.09334947414027,0.0,1.1306680659348167,396.9667083439433,-8.873358869803042
+dp_eps0.01,dp,0.01,True,Bwd IAT Mean,Flow timing,0.3424904712693582,1276.445369981951,1.1306594478445733,0.0,0.3424904712693582,0.0,1276.445369981951,0.0,1.1306594478445733,1277.4945909910232,-1.0492210090721983
+dp_eps0.01,dp,0.01,True,Bwd IAT Std,Flow timing,0.34753713710391915,1807.489769014822,1.2189557181945911,0.0,0.34753713710391915,0.0,1807.489769014822,0.0,1.2189557181945911,1809.8687820126574,-2.379012997835389
+dp_eps0.01,dp,0.01,True,Bwd IAT Max,Flow timing,0.3533466803401195,663.680519662328,1.361677979574495,0.0,0.3533466803401195,0.0,663.680519662328,0.0,1.361677979574495,662.9217237942802,0.758795868047855
+dp_eps0.01,dp,0.01,True,Bwd IAT Min,Flow timing,0.30926243302877976,1371.280547417927,0.7019655011208524,0.0,0.30926243302877976,0.0,1371.280547417927,0.0,0.7019655011208524,1364.0681196318997,7.21242778602732
+dp_eps0.01,dp,0.01,True,Fwd PSH Flags,TCP flags,0.20817083935296454,469.2950537519676,0.5005494762013907,0.0,0.20817083935296454,0.0,469.2950537519676,0.0,0.5005494762013907,464.7407590684044,4.554294683563228
+dp_eps0.01,dp,0.01,True,Fwd URG Flags,TCP flags,0.3107840993897297,17601.830463582362,0.6921325985837482,0.0,0.3107840993897297,0.0,17601.830463582362,0.0,0.6921325985837482,17751.32742398154,-149.49696039917762
+dp_eps0.01,dp,0.01,True,Fwd Header Length,Headers & window,0.3115059666926618,63129.41410683722,0.6937438050936764,2.9710253777221715e-06,0.31150299566728407,0.0,63129.41410683722,4.986424987927338e-05,0.6936939408437971,63033.33855531352,96.07555152369605
+dp_eps0.01,dp,0.01,True,Bwd Header Length,Headers & window,0.31135887596478745,905005.0050706334,0.69337103393583,4.361600607890479e-06,0.31135451436417955,0.0,905005.0050706334,8.220890899728495e-05,0.6932888250268328,913802.3876958668,-8797.382625233382
+dp_eps0.01,dp,0.01,True,Fwd Packets/s,Rates & volumes,0.3325052678734877,1023.28374294136,0.9817111828630085,0.005433196620147165,0.32707207125334053,0.0014067435050816694,1023.2823361978549,0.09643021710886765,0.8852809657541408,1010.591398027456,12.69234491390398
+dp_eps0.01,dp,0.01,True,Bwd Packets/s,Rates & volumes,0.3286834375135068,5087.492916552343,0.968180937964129,3.451109615222382e-05,0.3286489264173546,0.00012288765772159034,5087.4927936646845,0.0004400970603749234,0.967740840903754,5120.318056118681,-32.825139566338294
+dp_eps0.01,dp,0.01,True,Min Packet Length,Packet lengths,0.43717564886598426,259123.02884020164,5.6505016436529685,0.0,0.43717564886598426,0.0,259123.02884020164,0.0,5.6505016436529685,256154.6398189857,2968.3890212159313
+dp_eps0.01,dp,0.01,True,Max Packet Length,Packet lengths,0.41340316599361887,3103.1040048105,2.4324524899690623,0.0,0.41340316599361887,0.0,3103.1040048105,0.0,2.4324524899690623,3088.8073778400394,14.296626970460693
+dp_eps0.01,dp,0.01,True,Packet Length Mean,Packet lengths,0.5927852466806687,20711.571289526983,6.428526286629138,0.0,0.5927852466806687,0.0,20711.571289526983,0.0,6.428526286629138,20585.434690290498,126.13659923648447
+dp_eps0.01,dp,0.01,True,Packet Length Std,Packet lengths,0.4600997203818089,10006.511850102834,3.6157034504645806,0.0,0.4600997203818089,0.0,10006.511850102834,0.0,3.6157034504645806,9916.19070361952,90.32114648331299
+dp_eps0.01,dp,0.01,True,Packet Length Variance,Packet lengths,0.3777695531171866,61816.526601793936,3.0745945518533566,0.0,0.3777695531171866,0.0,61816.526601793936,0.0,3.0745945518533566,61832.567894549524,-16.041292755588074
+dp_eps0.01,dp,0.01,True,FIN Flag Count,TCP flags,0.23332404065992687,132194664137.59358,0.5511564056410915,0.0,0.23332404065992687,0.0,132194664137.59358,0.0,0.5511564056410915,132976095826.81277,-781431689.2191925
+dp_eps0.01,dp,0.01,True,SYN Flag Count,TCP flags,0.20743820295102533,111025354346.0738,0.4990331589409232,0.0,0.20743820295102533,0.0,111025354346.0738,0.0,0.4990331589409232,108923615406.65727,2101738939.4165344
+dp_eps0.01,dp,0.01,True,RST Flag Count,TCP flags,0.30950624838551327,1414236523280.4739,0.6901875778444748,0.0,0.30950624838551327,0.0,1414236523280.4739,0.0,0.6901875778444748,1420944991276.397,-6708467995.923096
+dp_eps0.01,dp,0.01,True,PSH Flag Count,TCP flags,0.031018990566559386,51220660189.6875,0.08417545480479444,0.0,0.031018990566559386,0.0,51220660189.6875,0.0,0.08417545480479444,51262395273.632,-41735083.944503784
+dp_eps0.01,dp,0.01,True,ACK Flag Count,TCP flags,0.026694208395338117,49999532764.31768,0.0726617776119941,0.0,0.026694208395338117,0.0,49999532764.31768,0.0,0.0726617776119941,50592750160.83089,-593217396.5132065
+dp_eps0.01,dp,0.01,True,URG Flag Count,TCP flags,0.14493364463358233,77883693498.41725,0.3636812459569298,0.0,0.14493364463358233,0.0,77883693498.41725,0.0,0.3636812459569298,77646613391.39279,237080107.02445984
+dp_eps0.01,dp,0.01,True,CWE Flag Count,TCP flags,0.3107525422718878,4184434568786.697,0.6920531352422856,0.0,0.3107525422718878,0.0,4184434568786.697,0.0,0.6920531352422856,4160467364995.674,23967203791.02295
+dp_eps0.01,dp,0.01,True,ECE Flag Count,TCP flags,0.30961071235623416,1410592286118.1072,0.6904568483310407,0.0,0.30961071235623416,0.0,1410592286118.1072,0.0,0.6904568483310407,1417848966296.4312,-7256680178.323975
+dp_eps0.01,dp,0.01,True,Down/Up Ratio,Rates & volumes,0.3203755515388543,33732697231.94029,1.2050917596261201,0.0,0.3203755515388543,0.0,33732697231.94029,0.0,1.2050917596261201,33691026304.41379,41670927.52649689
+dp_eps0.01,dp,0.01,True,Average Packet Size,Packet lengths,0.5936115294602838,19149.54506790782,6.324532338710559,0.0,0.5936115294602838,0.0,19149.54506790782,0.0,6.324532338710559,18967.98631001102,181.55875789680067
+dp_eps0.01,dp,0.01,True,Avg Fwd Segment Size,Packet lengths,0.370854409985711,33415.84282576938,2.1775517895772665,0.0,0.370854409985711,0.0,33415.84282576938,0.0,2.1775517895772665,33512.726960338914,-96.88413456953276
+dp_eps0.01,dp,0.01,True,Avg Bwd Segment Size,Packet lengths,0.5461581982628936,10277.241418018262,5.525567296327464,0.0,0.5461581982628936,0.0,10277.241418018262,0.0,5.525567296327464,10360.223486217928,-82.98206819966617
+dp_eps0.01,dp,0.01,True,Subflow Fwd Packets,Packet counts,0.3112083748506451,30104381.511612576,0.6940027547120027,0.0,0.3112083748506451,0.0,30104381.511612576,0.0,0.6940027547120027,29502653.035112683,601728.4764998928
+dp_eps0.01,dp,0.01,True,Subflow Fwd Bytes,Packet counts,0.3114934736761841,148018426784.7399,0.6951896226871188,0.0,0.3114934736761841,0.0,148018426784.7399,0.0,0.6951896226871188,145260591343.34686,2757835441.393036
+dp_eps0.01,dp,0.01,True,Subflow Bwd Packets,Packet counts,0.31097310316116517,22031026.279569354,0.6933249958929107,0.0,0.31097310316116517,0.0,22031026.279569354,0.0,0.6933249958929107,22175238.834986668,-144212.55541731417
+dp_eps0.01,dp,0.01,True,Subflow Bwd Bytes,Packet counts,0.31140574863100795,647298161.8708899,0.6943817596788905,0.0,0.31140574863100795,0.0,647298161.8708899,0.0,0.6943817596788905,640485332.1198303,6812829.751059651
+dp_eps0.01,dp,0.01,True,Init_Win_bytes_forward,Headers & window,0.3530694817213867,446.176224324085,2.518290475885213,0.0,0.3530694817213867,0.0,446.176224324085,0.0,2.518290475885213,448.93977457482816,-2.763550250743151
+dp_eps0.01,dp,0.01,True,Init_Win_bytes_backward,Headers & window,0.31301708213620116,737.3883372963201,0.9932471236041566,0.0,0.31301708213620116,0.0,737.3883372963201,0.0,0.9932471236041566,734.3461470939136,3.0421902024064593
+dp_eps0.01,dp,0.01,True,act_data_pkt_fwd,Packet counts,0.3113013171633178,35033386.89453428,0.6937906969287244,0.0,0.3113013171633178,0.0,35033386.89453428,0.0,0.6937906969287244,34752338.57058959,281048.3239446953
+dp_eps0.01,dp,0.01,True,min_seg_size_forward,Packet lengths,0.12002167850587549,5.644525142725877,0.24891017865742557,6.7423901125740475e-06,0.12001493611576292,0.0,5.644525142725877,0.00013734361983728545,0.2487728350375883,5.699894026789118,-0.05536888406324092
+dp_eps0.01,dp,0.01,True,Active Mean,Flow timing,0.31504747459665494,17611.57984461159,0.7384967796012021,0.0,0.31504747459665494,0.0,17611.57984461159,0.0,0.7384967796012021,17476.145073412332,135.43477119925956
+dp_eps0.01,dp,0.01,True,Active Std,Flow timing,0.3143674604252104,28867.389880559986,0.7395510613716139,0.0,0.3143674604252104,0.0,28867.389880559986,0.0,0.7395510613716139,28805.68552086857,61.70435969141545
+dp_eps0.01,dp,0.01,True,Active Max,Flow timing,0.3199468738958338,10987.268195069248,0.8028914800578193,0.0,0.3199468738958338,0.0,10987.268195069248,0.0,0.8028914800578193,11054.088533127706,-66.82033805845822
+dp_eps0.01,dp,0.01,True,Active Min,Flow timing,0.31373919217309393,19557.791854445186,0.7199735851940713,0.0,0.31373919217309393,0.0,19557.791854445186,0.0,0.7199735851940713,19634.84116709077,-77.049312645584
+dp_eps0.01,dp,0.01,True,Idle Mean,Flow timing,0.3701083107214474,474.3943829764183,1.5454151296168692,0.0,0.3701083107214474,0.0,474.3943829764183,0.0,1.5454151296168692,482.93270123972997,-8.53831826331168
+dp_eps0.01,dp,0.01,True,Idle Std,Flow timing,0.3142771638424092,2490.21084237773,0.7466721149337145,0.0,0.3142771638424092,0.0,2490.21084237773,0.0,0.7466721149337145,2461.9581347643043,28.252707613425628
+dp_eps0.01,dp,0.01,True,Idle Max,Flow timing,0.37072598895990694,465.9642736956349,1.5748534631528386,0.0,0.37072598895990694,0.0,465.9642736956349,0.0,1.5748534631528386,468.4305446029694,-2.46627090733449
+dp_eps0.01,dp,0.01,True,Idle Min,Flow timing,0.3707287213703747,484.91195245507237,1.5624742100451932,0.0,0.3707287213703747,0.0,484.91195245507237,0.0,1.5624742100451932,488.17333225206755,-3.261379796995186
+dp_eps0.1,dp,0.1,True,Flow Duration,Flow timing,0.3236932695730696,33.84846296015664,1.036109928467642,0.0,0.3236932695730696,0.0,33.84846296015664,0.0,1.036109928467642,34.0592079699567,-0.21074500980006405
+dp_eps0.1,dp,0.1,True,Total Fwd Packets,Packet counts,0.31105954534590474,2958381.56168246,0.6933743174547471,0.0,0.31105954534590474,0.0,2958381.56168246,0.0,0.6933743174547471,2950265.303511268,8116.258171191905
+dp_eps0.1,dp,0.1,True,Total Backward Packets,Packet counts,0.3110910415306299,2233248.6010025027,0.6933409404964899,0.0,0.3110910415306299,0.0,2233248.6010025027,0.0,0.6933409404964899,2217523.8834986663,15724.717503836378
+dp_eps0.1,dp,0.1,True,Total Length of Fwd Packets,Packet counts,0.3117655985598832,14609824272.756186,0.6958678127962942,0.0,0.3117655985598832,0.0,14609824272.756186,0.0,0.6958678127962942,14506401826.460976,103422446.29520988
+dp_eps0.1,dp,0.1,True,Total Length of Bwd Packets,Packet counts,0.31144104690222224,64337377.78519492,0.6944591930305404,0.0,0.31144104690222224,0.0,64337377.78519492,0.0,0.6944591930305404,64047662.431717284,289715.3534776345
+dp_eps0.1,dp,0.1,True,Fwd Packet Length Max,Packet lengths,0.37613795201880623,862.3273972781268,1.6440793595751126,0.0,0.37613795201880623,0.0,862.3273972781268,0.0,1.6440793595751126,866.4346903928014,-4.107293114674576
+dp_eps0.1,dp,0.1,True,Fwd Packet Length Min,Packet lengths,0.43621357093723406,10717.504168049667,3.5565306459893438,0.0,0.43621357093723406,0.0,10717.504168049667,0.0,3.5565306459893438,10779.07784815111,-61.57368010144273
+dp_eps0.1,dp,0.1,True,Fwd Packet Length Mean,Packet lengths,0.36687231068512277,3345.595441541066,1.6936741639500381,0.0,0.36687231068512277,0.0,3345.595441541066,0.0,1.6936741639500381,3351.272696033892,-5.677254492825796
+dp_eps0.1,dp,0.1,True,Fwd Packet Length Std,Packet lengths,0.3881975181226593,2203.0273746620346,2.0017093058459605,0.0,0.3881975181226593,0.0,2203.0273746620346,0.0,2.0017093058459605,2207.447403482838,-4.420028820803509
+dp_eps0.1,dp,0.1,True,Bwd Packet Length Max,Packet lengths,0.40228179431945454,323.36118700501004,1.7675087640074019,0.0,0.40228179431945454,0.0,323.36118700501004,0.0,1.7675087640074019,321.5105160881319,1.85067091687813
+dp_eps0.1,dp,0.1,True,Bwd Packet Length Min,Packet lengths,0.43764543806982825,9437.701203961868,3.0598548418555636,0.0,0.43764543806982825,0.0,9437.701203961868,0.0,3.0598548418555636,9245.94501247149,191.75619149037811
+dp_eps0.1,dp,0.1,True,Bwd Packet Length Mean,Packet lengths,0.5396092328245755,1028.4434876956723,4.0104428968571355,0.0,0.5396092328245755,0.0,1028.4434876956723,0.0,4.0104428968571355,1036.0223486218258,-7.5788609261535385
+dp_eps0.1,dp,0.1,True,Bwd Packet Length Std,Packet lengths,0.39328411628726173,746.6253251896196,1.689271660728461,0.0,0.39328411628726173,0.0,746.6253251896196,0.0,1.689271660728461,743.8244115636137,2.800913626005922
+dp_eps0.1,dp,0.1,True,Flow Bytes/s,Rates & volumes,0.9483287984754671,47.15773981655555,4.645237000318726,0.0010278079618858155,0.9473009905135813,0.010846478640141172,47.14689333791541,0.01738323801967163,4.627853762299055,47.04405139115122,0.11368842540432667
+dp_eps0.1,dp,0.1,True,Flow Packets/s,Rates & volumes,0.9601663160968225,95.59431641295072,5.919405611292078,0.006053432995836729,0.9541128831009857,0.001973977782878242,95.59234243516784,0.10801522908735217,5.811390382204726,96.3856148115232,-0.7912983985724793
+dp_eps0.1,dp,0.1,True,Flow IAT Mean,Flow timing,0.3473309345880469,254.8887705344224,1.137779768417736,0.0,0.3473309345880469,0.0,254.8887705344224,0.0,1.137779768417736,256.23524424403,-1.3464737096076078
+dp_eps0.1,dp,0.1,True,Flow IAT Std,Flow timing,0.3587401771412439,143.92388474667067,1.2455065913446537,0.0,0.3587401771412439,0.0,143.92388474667067,0.0,1.2455065913446537,141.898424244456,2.0254605022146563
+dp_eps0.1,dp,0.1,True,Flow IAT Max,Flow timing,0.34887775356251605,46.23483271082304,1.242358374382361,0.0,0.34887775356251605,0.0,46.23483271082304,0.0,1.242358374382361,46.719204595332066,-0.4843718845090237
+dp_eps0.1,dp,0.1,True,Flow IAT Min,Flow timing,0.30415337641580714,403.2492954210364,0.6785521664926426,0.0,0.30415337641580714,5.308025769478766e-10,403.2492954205056,0.0,0.6785521664926426,398.101853747426,5.147441673610388
+dp_eps0.1,dp,0.1,True,Fwd IAT Total,Flow timing,0.3136773334836373,33.88320604107484,0.9705993295212969,0.0,0.3136773334836373,0.0,33.88320604107484,0.0,0.9705993295212969,34.12349829020787,-0.24029224913302727
+dp_eps0.1,dp,0.1,True,Fwd IAT Mean,Flow timing,0.3324093718882708,118.1277108656712,1.0123724039420696,0.0,0.3324093718882708,0.0,118.1277108656712,0.0,1.0123724039420696,119.8035889009155,-1.6758780352442955
+dp_eps0.1,dp,0.1,True,Fwd IAT Std,Flow timing,0.3483485677686668,120.14513370160701,1.144106168155635,0.0,0.3483485677686668,0.0,120.14513370160701,0.0,1.144106168155635,118.31897990477776,1.8261537968292458
+dp_eps0.1,dp,0.1,True,Fwd IAT Max,Flow timing,0.3406227327154583,47.0070368924218,1.165188007375321,0.0,0.3406227327154583,0.0,47.0070368924218,0.0,1.165188007375321,46.5721010733714,0.434935819050402
+dp_eps0.1,dp,0.1,True,Fwd IAT Min,Flow timing,0.28829683963673297,132.55892900205313,0.644432639702536,0.0,0.28829683963673297,0.0,132.55892900205313,0.0,0.644432639702536,132.45767043072803,0.10125857132510419
+dp_eps0.1,dp,0.1,True,Bwd IAT Total,Flow timing,0.29052034144065775,38.506769596357984,0.7454502847947462,0.0,0.29052034144065775,0.0,38.506769596357984,0.0,0.7454502847947462,39.696670834394325,-1.1899012380363416
+dp_eps0.1,dp,0.1,True,Bwd IAT Mean,Flow timing,0.3100681904084072,127.46608141491559,0.8179147149208689,0.0,0.3100681904084072,0.0,127.46608141491559,0.0,0.8179147149208689,127.74945909910232,-0.2833776841867319
+dp_eps0.1,dp,0.1,True,Bwd IAT Std,Flow timing,0.3216349284645308,180.50985037444474,0.8988463866340114,0.0,0.3216349284645308,0.0,180.50985037444474,0.0,0.8988463866340114,180.98687820126574,-0.47702782682100064
+dp_eps0.1,dp,0.1,True,Bwd IAT Max,Flow timing,0.31686830848276365,66.13461757466773,0.9629832064918441,0.0,0.31686830848276365,0.0,66.13461757466773,0.0,0.9629832064918441,66.29217237942801,-0.15755480476028083
+dp_eps0.1,dp,0.1,True,Bwd IAT Min,Flow timing,0.2895104350624254,137.03677231360828,0.6474052502793748,0.0,0.2895104350624254,0.0,137.03677231360828,0.0,0.6474052502793748,136.40681196318994,0.6299603504183438
+dp_eps0.1,dp,0.1,True,Fwd PSH Flags,TCP flags,0.21227050951733573,46.749663771172244,0.5078163271282179,0.0,0.21227050951733573,0.0,46.749663771172244,0.0,0.5078163271282179,46.47407590684044,0.27558786433180416
+dp_eps0.1,dp,0.1,True,Fwd URG Flags,TCP flags,0.31043677218963633,1760.1830463582385,0.6912541338717128,0.0,0.31043677218963633,0.0,1760.1830463582385,0.0,0.6912541338717128,1775.132742398154,-14.94969603991558
+dp_eps0.1,dp,0.1,True,Fwd Header Length,Headers & window,0.3106708126269227,6312.941405069344,0.6916468477153052,2.9710253777221715e-06,0.310667841601545,0.0,6312.941405069344,4.986424987927338e-05,0.6915969834654259,6303.333855531352,9.607549537991872
+dp_eps0.1,dp,0.1,True,Bwd Header Length,Headers & window,0.3113339588906604,90500.50041647188,0.693315877440916,4.361600607890479e-06,0.3113295972900525,0.0,90500.50041647188,8.220890899728495e-05,0.6932336685319188,91380.23876958666,-879.7383531147789
+dp_eps0.1,dp,0.1,True,Fwd Packets/s,Rates & volumes,0.3154879227333634,102.15161554740828,0.7872645761363558,0.005433196620147165,0.3100547261132162,0.0014067435050816694,102.1502088039032,0.09643021710886765,0.6908343590274881,101.05913980274559,1.0924757446626927
+dp_eps0.1,dp,0.1,True,Bwd Packets/s,Rates & volumes,0.31929594118316024,508.60295031978796,0.8155303332399298,3.451109615222382e-05,0.319261430087008,0.00012288765772159034,508.60282743213025,0.0004400970603749234,0.8150902361795549,512.0318056118681,-3.4288552920801294
+dp_eps0.1,dp,0.1,True,Min Packet Length,Packet lengths,0.43638445736170933,25911.70848084222,3.496232335888253,0.0,0.43638445736170933,0.0,25911.70848084222,0.0,3.496232335888253,25615.463981898574,296.24449894364443
+dp_eps0.1,dp,0.1,True,Max Packet Length,Packet lengths,0.4000826849052653,309.8709352520077,1.6942011535510482,0.0,0.4000826849052653,0.0,309.8709352520077,0.0,1.6942011535510482,308.88073778400394,0.9901974680037711
+dp_eps0.1,dp,0.1,True,Packet Length Mean,Packet lengths,0.5882659662958967,2070.671878863678,4.946022925085632,0.0,0.5882659662958967,0.0,2070.671878863678,0.0,4.946022925085632,2058.54346902905,12.1284098346282
+dp_eps0.1,dp,0.1,True,Packet Length Std,Packet lengths,0.45156166406123505,1000.2169468329629,2.5729811624904224,0.0,0.45156166406123505,0.0,1000.2169468329629,0.0,2.5729811624904224,991.619070361952,8.597876471010863
+dp_eps0.1,dp,0.1,True,Packet Length Variance,Packet lengths,0.3756474517263051,6181.382984439925,1.7951397151749342,0.0,0.3756474517263051,0.0,6181.382984439925,0.0,1.7951397151749342,6183.256789454952,-1.8738050150268464
+dp_eps0.1,dp,0.1,True,FIN Flag Count,TCP flags,0.23332404065992687,13219466413.607159,0.5511564056410915,0.0,0.23332404065992687,0.0,13219466413.607159,0.0,0.5511564056410915,13297609582.681278,-78143169.07411957
+dp_eps0.1,dp,0.1,True,SYN Flag Count,TCP flags,0.20743820295102533,11102535434.424171,0.4990331589409232,0.0,0.20743820295102533,0.0,11102535434.424171,0.0,0.4990331589409232,10892361540.66573,210173893.75844193
+dp_eps0.1,dp,0.1,True,RST Flag Count,TCP flags,0.30950624838551327,141423652328.04816,0.6901875778444748,0.0,0.30950624838551327,0.0,141423652328.04816,0.0,0.6901875778444748,142094499127.6397,-670846799.5915527
+dp_eps0.1,dp,0.1,True,PSH Flag Count,TCP flags,0.031018990566559386,5122066018.347508,0.08417545480479444,0.0,0.031018990566559386,0.0,5122066018.347508,0.0,0.08417545480479444,5126239527.3632,-4173509.015691757
+dp_eps0.1,dp,0.1,True,ACK Flag Count,TCP flags,0.026694208395338117,4999953275.842337,0.0726617776119941,0.0,0.026694208395338117,0.0,4999953275.842337,0.0,0.0726617776119941,5059275016.083089,-59321740.24075222
+dp_eps0.1,dp,0.1,True,URG Flag Count,TCP flags,0.14493364463358233,7788369349.552505,0.3636812459569298,0.0,0.14493364463358233,0.0,7788369349.552505,0.0,0.3636812459569298,7764661339.139278,23708010.413226128
+dp_eps0.1,dp,0.1,True,CWE Flag Count,TCP flags,0.3107525422718878,418443456878.66907,0.6920531352422856,0.0,0.3107525422718878,0.0,418443456878.66907,0.0,0.6920531352422856,416046736499.5674,2396720379.1016846
+dp_eps0.1,dp,0.1,True,ECE Flag Count,TCP flags,0.30961071235623416,141059228611.80008,0.6904568483310407,0.0,0.30961071235623416,0.0,141059228611.80008,0.0,0.6904568483310407,141784896629.6431,-725668017.8430176
+dp_eps0.1,dp,0.1,True,Down/Up Ratio,Rates & volumes,0.3203755515388543,3373269722.662557,1.2050917596261201,0.0,0.3203755515388543,0.0,3373269722.662557,0.0,1.2050917596261201,3369102630.441379,4167092.221178055
+dp_eps0.1,dp,0.1,True,Average Packet Size,Packet lengths,0.588554363240145,1914.480532728995,4.780327152486757,0.0,0.588554363240145,0.0,1914.480532728995,0.0,4.780327152486757,1896.7986310011022,17.681901727892864
+dp_eps0.1,dp,0.1,True,Avg Fwd Segment Size,Packet lengths,0.3670244914467334,3341.33618760531,1.7036882372227153,0.0,0.3670244914467334,0.0,3341.33618760531,0.0,1.7036882372227153,3351.272696033892,-9.936508428581874
+dp_eps0.1,dp,0.1,True,Avg Bwd Segment Size,Packet lengths,0.5397948440413,1027.2748062702494,4.030452571832005,0.0,0.5397948440413,0.0,1027.2748062702494,0.0,4.030452571832005,1036.0223486217928,-8.747542351543416
+dp_eps0.1,dp,0.1,True,Subflow Fwd Packets,Packet counts,0.31118538249715316,3010438.1455404796,0.6932043551856902,0.0,0.31118538249715316,0.0,3010438.1455404796,0.0,0.6932043551856902,2950265.303511268,60172.84202921158
+dp_eps0.1,dp,0.1,True,Subflow Fwd Bytes,Packet counts,0.3114934736761841,14801842678.42393,0.6951896226871188,0.0,0.3114934736761841,0.0,14801842678.42393,0.0,0.6951896226871188,14526059134.334686,275783544.08924294
+dp_eps0.1,dp,0.1,True,Subflow Bwd Packets,Packet counts,0.31095322682278703,2203102.6235564062,0.6930890158295325,0.0,0.31095322682278703,0.0,2203102.6235564062,0.0,0.6930890158295325,2217523.8834986663,-14421.259942260105
+dp_eps0.1,dp,0.1,True,Subflow Bwd Bytes,Packet counts,0.31140306776083565,64729816.185048595,0.6943075061667149,0.0,0.31140306776083565,0.0,64729816.185048595,0.0,0.6943075061667149,64048533.21198301,681282.9730655849
+dp_eps0.1,dp,0.1,True,Init_Win_bytes_forward,Headers & window,0.3330017539957589,44.19820510358728,1.7373907884774145,0.0,0.3330017539957589,0.0,44.19820510358728,0.0,1.7373907884774145,44.89397745748282,-0.695772353895542
+dp_eps0.1,dp,0.1,True,Init_Win_bytes_backward,Headers & window,0.286771128249969,73.52643472532648,0.7517269333015362,0.0,0.286771128249969,0.0,73.52643472532648,0.0,0.7517269333015362,73.43461470939135,0.09182001593512723
+dp_eps0.1,dp,0.1,True,act_data_pkt_fwd,Packet counts,0.31128828326894015,3503338.68624985,0.693561574956119,0.0,0.31128828326894015,0.0,3503338.68624985,0.0,0.693561574956119,3475233.857058959,28104.82919089077
+dp_eps0.1,dp,0.1,True,min_seg_size_forward,Packet lengths,7.299278445811482e-05,0.5644478119960681,0.0002698469251274085,6.7423901125740475e-06,6.625039434554077e-05,0.0,0.5644478119960681,0.00013734361983728545,0.00013250330529012306,0.5699894026789118,-0.005541590682843767
+dp_eps0.1,dp,0.1,True,Active Mean,Flow timing,0.3093177102023368,1761.0542340312566,0.6959443120538893,0.0,0.3093177102023368,0.0,1761.0542340312566,0.0,0.6959443120538893,1747.614507341233,13.439726690023463
+dp_eps0.1,dp,0.1,True,Active Std,Flow timing,0.3101635508137009,2886.6387924557202,0.7029267077883528,0.0,0.3101635508137009,0.0,2886.6387924557202,0.0,0.7029267077883528,2880.568552086857,6.070240368863324
+dp_eps0.1,dp,0.1,True,Active Max,Flow timing,0.31168687652516747,1098.5960305668148,0.7214491361841014,0.0,0.31168687652516747,0.0,1098.5960305668148,0.0,0.7214491361841014,1105.4088533127706,-6.8128227459558275
+dp_eps0.1,dp,0.1,True,Active Min,Flow timing,0.3088270332512295,1955.6822434929643,0.6903422156185609,0.0,0.3088270332512295,0.0,1955.6822434929643,0.0,0.6903422156185609,1963.4841167090772,-7.801873216112881
+dp_eps0.1,dp,0.1,True,Idle Mean,Flow timing,0.3272002874819867,47.13210517255312,1.038833433450649,0.0,0.3272002874819867,0.0,47.13210517255312,0.0,1.038833433450649,48.293270123972995,-1.1611649514198774
+dp_eps0.1,dp,0.1,True,Idle Std,Flow timing,0.2997773019929208,248.9200144399143,0.681140868023428,0.0,0.2997773019929208,0.0,248.9200144399143,0.0,0.681140868023428,246.19581347643046,2.7242009634838382
+dp_eps0.1,dp,0.1,True,Idle Max,Flow timing,0.3286749825368831,46.28742618642365,1.0549975031748808,0.0,0.3286749825368831,0.0,46.28742618642365,0.0,1.0549975031748808,46.84305446029693,-0.5556282738732818
+dp_eps0.1,dp,0.1,True,Idle Min,Flow timing,0.33101523271677474,48.19023593134584,1.0565099070523427,0.0,0.33101523271677474,0.0,48.19023593134584,0.0,1.0565099070523427,48.81733322520675,-0.6270972938609134
+dp_eps0.5,dp,0.5,True,Flow Duration,Flow timing,0.2370781684062517,6.477882871106393,0.6354542897986428,0.0,0.2370781684062517,0.0,6.477882871106393,0.0,0.6354542897986428,6.81184159399134,-0.33395872288494655
+dp_eps0.5,dp,0.5,True,Total Fwd Packets,Packet counts,0.3110180929375404,591676.307776886,0.6925898806929176,0.0,0.3110180929375404,0.0,591676.307776886,0.0,0.6925898806929176,590053.0607022536,1623.2470746324398
+dp_eps0.5,dp,0.5,True,Total Backward Packets,Packet counts,0.3110417742715316,446649.71671551216,0.6926192291173963,0.0,0.3110417742715316,0.0,446649.71671551216,0.0,0.6926192291173963,443504.7766997333,3144.940015778877
+dp_eps0.5,dp,0.5,True,Total Length of Fwd Packets,Packet counts,0.3117655985598832,2921964854.5117836,0.6958678127962942,0.0,0.3117655985598832,0.0,2921964854.5117836,0.0,0.6958678127962942,2901280365.2921953,20684489.21958828
+dp_eps0.5,dp,0.5,True,Total Length of Bwd Packets,Packet counts,0.31143271000756645,12867475.55465434,0.6938765407978382,0.0,0.31143271000756645,0.0,12867475.55465434,0.0,0.6938765407978382,12809532.486343458,57943.06831088103
+dp_eps0.5,dp,0.5,True,Fwd Packet Length Max,Packet lengths,0.3543906536717082,172.24510296029558,1.2691141543174889,0.0,0.3543906536717082,0.0,172.24510296029558,0.0,1.2691141543174889,173.28693807856027,-1.0418351182646859
+dp_eps0.5,dp,0.5,True,Fwd Packet Length Min,Packet lengths,0.4336964865200662,2143.2590269452858,2.8695220856315613,0.0,0.4336964865200662,0.0,2143.2590269452858,0.0,2.8695220856315613,2155.815569630222,-12.556542684936176
+dp_eps0.5,dp,0.5,True,Fwd Packet Length Mean,Packet lengths,0.3578196837614956,668.9051858886573,1.391702776025136,0.0,0.3578196837614956,0.0,668.9051858886573,0.0,1.391702776025136,670.2545392067783,-1.3493533181209614
+dp_eps0.5,dp,0.5,True,Fwd Packet Length Std,Packet lengths,0.3745757027912866,440.39769427646763,1.5877895091403327,0.0,0.3745757027912866,0.0,440.39769427646763,0.0,1.5877895091403327,441.4894806965676,-1.091786420099993
+dp_eps0.5,dp,0.5,True,Bwd Packet Length Max,Packet lengths,0.37153399023803635,64.32375187480717,1.27459964817987,0.0,0.37153399023803635,0.0,64.32375187480717,0.0,1.27459964817987,64.30210321762638,0.021648657180790565
+dp_eps0.5,dp,0.5,True,Bwd Packet Length Min,Packet lengths,0.4329717088712808,1887.0476987391123,2.4391475355798953,0.0,0.4329717088712808,0.0,1887.0476987391123,0.0,2.4391475355798953,1849.189002494298,37.85869624481438
+dp_eps0.5,dp,0.5,True,Bwd Packet Length Mean,Packet lengths,0.5214023862596933,205.27616170892526,3.0959257116209318,0.0,0.5214023862596933,0.0,205.27616170892526,0.0,3.0959257116209318,207.2044697243652,-1.9283080154399386
+dp_eps0.5,dp,0.5,True,Bwd Packet Length Std,Packet lengths,0.3685623980881598,148.98516090369972,1.2409575951315541,0.0,0.3685623980881598,0.0,148.98516090369972,0.0,1.2409575951315541,148.76488231272276,0.22027859097696023
+dp_eps0.5,dp,0.5,True,Flow Bytes/s,Rates & volumes,0.8475772583288845,9.4018806961052,3.053769734579671,0.0010278079618858155,0.8465494503669987,0.010846478640141172,9.391034217465059,0.01738323801967163,3.036386496559999,9.408810278230245,-0.0069295821250445755
+dp_eps0.5,dp,0.5,True,Flow Packets/s,Rates & volumes,0.8954126277059212,18.963602770633198,4.344495738853709,0.006053432995836729,0.8893591947100845,0.001973977782878242,18.96162879285032,0.10801522908735217,4.236480509766357,19.277122962304638,-0.3135201916714401
+dp_eps0.5,dp,0.5,True,Flow IAT Mean,Flow timing,0.3020259137658615,50.75772453549884,0.8094947263857124,0.0,0.3020259137658615,0.0,50.75772453549884,0.0,0.8094947263857124,51.247048848805996,-0.48932431330715787
+dp_eps0.5,dp,0.5,True,Flow IAT Std,Flow timing,0.2918035933970868,28.50085505475097,0.8194131911618773,0.0,0.2918035933970868,0.0,28.50085505475097,0.0,0.8194131911618773,28.379684848891205,0.1211702058597659
+dp_eps0.5,dp,0.5,True,Flow IAT Max,Flow timing,0.2763903818277042,8.980398942747126,0.8116603993793605,0.0,0.2763903818277042,0.0,8.980398942747126,0.0,0.8116603993793605,9.343840919066414,-0.36344197631928843
+dp_eps0.5,dp,0.5,True,Flow IAT Min,Flow timing,0.2973778698933309,80.61783729275491,0.6657726699662019,0.0,0.2973778698933309,5.308025769478766e-10,80.61783729222411,0.0,0.6657726699662019,79.6203707494852,0.9974665432697094
+dp_eps0.5,dp,0.5,True,Fwd IAT Total,Flow timing,0.2314074803219676,6.4824319061879265,0.6053237554812243,0.0,0.2314074803219676,0.0,6.4824319061879265,0.0,0.6053237554812243,6.824699658041574,-0.34226775185364744
+dp_eps0.5,dp,0.5,True,Fwd IAT Mean,Flow timing,0.26822393555114654,23.43567220701163,0.6750400827234938,0.0,0.26822393555114654,0.0,23.43567220701163,0.0,0.6750400827234938,23.9607177801831,-0.525045573171468
+dp_eps0.5,dp,0.5,True,Fwd IAT Std,Flow timing,0.2838044198304116,23.77367282818365,0.7671168096414368,0.0,0.2838044198304116,0.0,23.77367282818365,0.0,0.7671168096414368,23.663795980955552,0.10987684722809732
+dp_eps0.5,dp,0.5,True,Fwd IAT Max,Flow timing,0.271847229345465,9.162410824641515,0.7764408478745821,0.0,0.271847229345465,0.0,9.162410824641515,0.0,0.7764408478745821,9.314420214674282,-0.1520093900327666
+dp_eps0.5,dp,0.5,True,Fwd IAT Min,Flow timing,0.26676382900846835,26.436858102863408,0.6069990218907976,0.0,0.26676382900846835,0.0,26.436858102863408,0.0,0.6069990218907976,26.49153408614561,-0.05467598328220191
+dp_eps0.5,dp,0.5,True,Bwd IAT Total,Flow timing,0.22183559609029788,7.482060998573805,0.5195596456237885,0.0,0.22183559609029788,0.0,7.482060998573805,0.0,0.5195596456237885,7.939334166878866,-0.45727316830506126
+dp_eps0.5,dp,0.5,True,Bwd IAT Mean,Flow timing,0.258702461305948,25.34768794832578,0.6061626811012006,0.0,0.258702461305948,0.0,25.34768794832578,0.0,0.6061626811012006,25.549891819820466,-0.20220387149468522
+dp_eps0.5,dp,0.5,True,Bwd IAT Std,Flow timing,0.2769568698141019,35.90059337867765,0.6790492031175359,0.0,0.2769568698141019,0.0,35.90059337867765,0.0,0.6790492031175359,36.19737564025315,-0.29678226157550114
+dp_eps0.5,dp,0.5,True,Bwd IAT Max,Flow timing,0.2663590738635027,13.042287040758026,0.7106737030501995,0.0,0.2663590738635027,0.0,13.042287040758026,0.0,0.7106737030501995,13.258434475885602,-0.21614743512757606
+dp_eps0.5,dp,0.5,True,Bwd IAT Min,Flow timing,0.26923657930860356,27.33783489896001,0.6118581169736051,0.0,0.26923657930860356,0.0,27.33783489896001,0.0,0.6118581169736051,27.281362392637995,0.05647250632201661
+dp_eps0.5,dp,0.5,True,Fwd PSH Flags,TCP flags,0.2284879395752276,9.22459203796043,0.5357576271175429,0.0,0.2284879395752276,0.0,9.22459203796043,0.0,0.5357576271175429,9.294815181368088,-0.07022314340765767
+dp_eps0.5,dp,0.5,True,Fwd URG Flags,TCP flags,0.30885885036344346,352.03660927164754,0.6872671954141246,0.0,0.30885885036344346,0.0,352.03660927164754,0.0,0.6872671954141246,355.02654847963083,-2.989939207983298
+dp_eps0.5,dp,0.5,True,Fwd Header Length,Headers & window,0.3070855988337439,1262.5882760233374,0.6826265005499246,2.9710253777221715e-06,0.3070826278083662,0.0,1262.5882760233374,4.986424987927338e-05,0.6825766363000453,1260.6667711062705,1.9215049170668408
+dp_eps0.5,dp,0.5,True,Bwd Header Length,Headers & window,0.3112659891921428,18100.100002768413,0.6931533770634716,4.361600607890479e-06,0.3112616275915349,0.0,18100.100002768413,8.220890899728495e-05,0.6930711681544743,18276.047753917333,-175.94775114892036
+dp_eps0.5,dp,0.5,True,Fwd Packets/s,Rates & volumes,0.28608585958524124,20.293117109682036,0.6569730474193336,0.005433196620147165,0.28065266296509406,0.0014067435050816694,20.291710366176954,0.09643021710886765,0.5605428303104659,20.21182796054912,0.08128914913291752
+dp_eps0.5,dp,0.5,True,Bwd Packets/s,Rates & volumes,0.3011871019079915,101.59097779162394,0.7083399203656034,3.451109615222382e-05,0.30115259081183926,0.00012288765772159034,101.59085490396622,0.0004400970603749234,0.7078998233052285,102.40636112237361,-0.8153833307496683
+dp_eps0.5,dp,0.5,True,Min Packet Length,Packet lengths,0.43444122147108616,5181.813337788031,2.9612868457297465,0.0,0.43444122147108616,0.0,5181.813337788031,0.0,2.9612868457297465,5123.092796379715,58.72054140831642
+dp_eps0.5,dp,0.5,True,Max Packet Length,Packet lengths,0.36605532037851457,61.58857208337965,1.202866082516218,0.0,0.36605532037851457,0.0,61.58857208337965,0.0,1.202866082516218,61.77614755680079,-0.18757547342113412
+dp_eps0.5,dp,0.5,True,Packet Length Mean,Packet lengths,0.574643922422931,413.70480505881244,3.8696634855617686,0.0,0.574643922422931,0.0,413.70480505881244,0.0,3.8696634855617686,411.70869380580996,1.996111253002482
+dp_eps0.5,dp,0.5,True,Packet Length Std,Packet lengths,0.42703567186744074,199.65976643554438,1.8988165881124999,0.0,0.42703567186744074,0.0,199.65976643554438,0.0,1.8988165881124999,198.32381407239043,1.3359523631539503
+dp_eps0.5,dp,0.5,True,Packet Length Variance,Packet lengths,0.36934224249885234,1236.0368851195735,1.4783104862709813,0.0,0.36934224249885234,0.0,1236.0368851195735,0.0,1.4783104862709813,1236.6513578909905,-0.6144727714170131
+dp_eps0.5,dp,0.5,True,FIN Flag Count,TCP flags,0.23332404065992687,2643893282.586167,0.5511564056410915,0.0,0.23332404065992687,0.0,2643893282.586167,0.0,0.5511564056410915,2659521916.536256,-15628633.950088978
+dp_eps0.5,dp,0.5,True,SYN Flag Count,TCP flags,0.20743820295102533,2220507086.7219925,0.4990331589409232,0.0,0.20743820295102533,0.0,2220507086.7219925,0.0,0.4990331589409232,2178472308.133146,42034778.58884668
+dp_eps0.5,dp,0.5,True,RST Flag Count,TCP flags,0.30950624838551327,28284730465.609566,0.6901875778444748,0.0,0.30950624838551327,0.0,28284730465.609566,0.0,0.6901875778444748,28418899825.52794,-134169359.91837311
+dp_eps0.5,dp,0.5,True,PSH Flag Count,TCP flags,0.031018990566559386,1024413203.1172769,0.08417545480479444,0.0,0.031018990566559386,0.0,1024413203.1172769,0.0,0.08417545480479444,1025247905.4726402,-834702.3553632498
+dp_eps0.5,dp,0.5,True,ACK Flag Count,TCP flags,0.026694208395338117,999990654.6445255,0.0726617776119941,0.0,0.026694208395338117,0.0,999990654.6445255,0.0,0.0726617776119941,1011855003.2166178,-11864348.572092295
+dp_eps0.5,dp,0.5,True,URG Flag Count,TCP flags,0.14493364463358233,1557673869.653415,0.3636812459569298,0.0,0.14493364463358233,0.0,1557673869.653415,0.0,0.3636812459569298,1552932267.8278558,4741601.825559139
+dp_eps0.5,dp,0.5,True,CWE Flag Count,TCP flags,0.3107525422718878,83688691375.73387,0.6920531352422856,0.0,0.3107525422718878,0.0,83688691375.73387,0.0,0.6920531352422856,83209347299.91347,479344075.82040405
+dp_eps0.5,dp,0.5,True,ECE Flag Count,TCP flags,0.30961071235623416,28211845722.35032,0.6904568483310407,0.0,0.30961071235623416,0.0,28211845722.35032,0.0,0.6904568483310407,28356979325.928623,-145133603.5783043
+dp_eps0.5,dp,0.5,True,Down/Up Ratio,Rates & volumes,0.3203755515388543,674653944.0600979,1.2050917596261201,0.0,0.3203755515388543,0.0,674653944.0600979,0.0,1.2050917596261201,673820526.0882758,833417.9718221426
+dp_eps0.5,dp,0.5,True,Average Packet Size,Packet lengths,0.5738988586323565,382.4760413841907,3.7327380056720045,0.0,0.5738988586323565,0.0,382.4760413841907,0.0,3.7327380056720045,379.3597262002204,3.1163151839703005
+dp_eps0.5,dp,0.5,True,Avg Fwd Segment Size,Packet lengths,0.3580050536047126,668.047640020216,1.3909379539854507,0.0,0.3580050536047126,0.0,668.047640020216,0.0,1.3909379539854507,670.2545392067783,-2.206899186562282
+dp_eps0.5,dp,0.5,True,Avg Bwd Segment Size,Packet lengths,0.5214016124138942,205.05904810501167,3.0840846442436716,0.0,0.5214016124138942,0.0,205.05904810501167,0.0,3.0840846442436716,207.20446972435855,-2.1454216193468767
+dp_eps0.5,dp,0.5,True,Subflow Fwd Packets,Packet counts,0.31114149481877945,602087.6241118481,0.6928940080572483,0.0,0.31114149481877945,0.0,602087.6241118481,0.0,0.6928940080572483,590053.0607022536,12034.56340959447
+dp_eps0.5,dp,0.5,True,Subflow Fwd Bytes,Packet counts,0.3114934731065576,2960368535.640298,0.6951896218588316,0.0,0.3114934731065576,0.0,2960368535.640298,0.0,0.6951896218588316,2905211826.866937,55156708.77336073
+dp_eps0.5,dp,0.5,True,Subflow Bwd Packets,Packet counts,0.31090409945483477,440620.5207996963,0.6922737073516685,0.0,0.31090409945483477,0.0,440620.5207996963,0.0,0.6922737073516685,443504.7766997333,-2884.255900036951
+dp_eps0.5,dp,0.5,True,Subflow Bwd Bytes,Packet counts,0.3113984146282719,12945963.235196061,0.6942670177262562,0.0,0.3113984146282719,0.0,12945963.235196061,0.0,0.6942670177262562,12809706.642396603,136256.59279945865
+dp_eps0.5,dp,0.5,True,Init_Win_bytes_forward,Headers & window,0.3083897589289135,8.516281319316958,1.2521284135622972,0.0,0.3083897589289135,0.0,8.516281319316958,0.0,1.2521284135622972,8.978795491496564,-0.4625141721796062
+dp_eps0.5,dp,0.5,True,Init_Win_bytes_backward,Headers & window,0.24948133537992426,14.544982277889424,0.6007492747635175,0.0,0.24948133537992426,0.0,14.544982277889424,0.0,0.6007492747635175,14.686922941878272,-0.14194066398884786
+dp_eps0.5,dp,0.5,True,act_data_pkt_fwd,Packet counts,0.311258234280491,700667.7344023469,0.6931512109818964,0.0,0.311258234280491,0.0,700667.7344023469,0.0,0.6931512109818964,695046.7714117918,5620.962990555097
+dp_eps0.5,dp,0.5,True,min_seg_size_forward,Packet lengths,6.7423901125740475e-06,0.11288538259786322,0.00013734361983728545,6.7423901125740475e-06,0.0,0.0,0.11288538259786322,0.00013734361983728545,0.0,0.11399788053578236,-0.0011124979379191352
+dp_eps0.5,dp,0.5,True,Active Mean,Flow timing,0.29863766148786486,352.1186242018936,0.6643833982519283,0.0,0.29863766148786486,0.0,352.1186242018936,0.0,0.6643833982519283,349.52290146824663,2.595722733646994
+dp_eps0.5,dp,0.5,True,Active Std,Flow timing,0.30216719298049394,577.2386957353493,0.6746135561780049,0.0,0.30216719298049394,0.0,577.2386957353493,0.0,0.6746135561780049,576.1137104173714,1.1249853179779166
+dp_eps0.5,dp,0.5,True,Active Max,Flow timing,0.2958238479560983,219.60370651581948,0.6619241954522563,0.0,0.2958238479560983,0.0,219.60370651581948,0.0,0.6619241954522563,221.08177066255413,-1.4780641467346527
+dp_eps0.5,dp,0.5,True,Active Min,Flow timing,0.2997335373531555,391.0504066301192,0.66685529622851,0.0,0.2997335373531555,0.0,391.0504066301192,0.0,0.66685529622851,392.69682334181545,-1.6464167116962471
+dp_eps0.5,dp,0.5,True,Idle Mean,Flow timing,0.26590061046113683,9.19036442016828,0.7239729378206465,0.0,0.26590061046113683,0.0,9.19036442016828,0.0,0.7239729378206465,9.6586540247946,-0.46828960462632097
+dp_eps0.5,dp,0.5,True,Idle Std,Flow timing,0.2816405274911692,49.70075845817886,0.6362386605786179,0.0,0.2816405274911692,0.0,49.70075845817886,0.0,0.6362386605786179,49.23916269528609,0.46159576289277027
+dp_eps0.5,dp,0.5,True,Idle Max,Flow timing,0.27051778238761115,9.021828467414995,0.7449287069477629,0.0,0.27051778238761115,0.0,9.021828467414995,0.0,0.7449287069477629,9.368610892059388,-0.34678242464439357
+dp_eps0.5,dp,0.5,True,Idle Min,Flow timing,0.27501035305361093,9.410322062491609,0.7430383157093986,0.0,0.27501035305361093,0.0,9.410322062491609,0.0,0.7430383157093986,9.763466645041351,-0.3531445825497421
+dp_eps1.0,dp,1.0,True,Flow Duration,Flow timing,0.19859261552725957,3.1060549609593675,0.5116582259565405,0.0,0.19859261552725957,0.0,3.1060549609593675,0.0,0.5116582259565405,3.40592079699567,-0.29986583603630246
+dp_eps1.0,dp,1.0,True,Total Fwd Packets,Packet counts,0.31099127094231555,295838.151038691,0.6924980073470296,0.0,0.31099127094231555,0.0,295838.151038691,0.0,0.6924980073470296,295026.5303511268,811.6206875641947
+dp_eps1.0,dp,1.0,True,Total Backward Packets,Packet counts,0.31101560673450523,223324.8561796388,0.6925484630526774,0.0,0.31101560673450523,0.0,223324.8561796388,0.0,0.6925484630526774,221752.38834986664,1572.4678297721548
+dp_eps1.0,dp,1.0,True,Total Length of Fwd Packets,Packet counts,0.3117655979902564,1460982427.2312286,0.695867811968007,0.0,0.3117655979902564,0.0,1460982427.2312286,0.0,0.695867811968007,1450640182.6460977,10342244.58513093
+dp_eps1.0,dp,1.0,True,Total Length of Bwd Packets,Packet counts,0.3114272467911025,6433737.775836727,0.6937927079666725,0.0,0.3114272467911025,0.0,6433737.775836727,0.0,0.6937927079666725,6404766.243171729,28971.532664997503
+dp_eps1.0,dp,1.0,True,Fwd Packet Length Max,Packet lengths,0.3374947888173692,85.98647831280937,1.1065126612162055,0.0,0.3374947888173692,0.0,85.98647831280937,0.0,1.1065126612162055,86.64346903928013,-0.6569907264707666
+dp_eps1.0,dp,1.0,True,Fwd Packet Length Min,Packet lengths,0.431583365159328,1071.478403360193,2.62131921104686,0.0,0.431583365159328,0.0,1071.478403360193,0.0,2.62131921104686,1077.907784815111,-6.42938145491803
+dp_eps1.0,dp,1.0,True,Fwd Packet Length Mean,Packet lengths,0.3504883175621539,334.3206979794589,1.2616144599742807,0.0,0.3504883175621539,0.0,334.3206979794589,0.0,1.2616144599742807,335.12726960338915,-0.8065716239302674
+dp_eps1.0,dp,1.0,True,Fwd Packet Length Std,Packet lengths,0.3639417009630753,220.06951653974116,1.4167456772908176,0.0,0.3639417009630753,0.0,220.06951653974116,0.0,1.4167456772908176,220.7447403482838,-0.6752238085426541
+dp_eps1.0,dp,1.0,True,Bwd Packet Length Max,Packet lengths,0.3466840183501096,31.951113626697254,1.0711259724265745,0.0,0.3466840183501096,0.0,31.951113626697254,0.0,1.0711259724265745,32.15105160881319,-0.19993798211593727
+dp_eps1.0,dp,1.0,True,Bwd Packet Length Min,Packet lengths,0.4284101062224858,943.216728642518,2.1728152863768764,0.0,0.4284101062224858,0.0,943.216728642518,0.0,2.1728152863768764,924.594501247149,18.62222739536901
+dp_eps1.0,dp,1.0,True,Bwd Packet Length Mean,Packet lengths,0.5044616159509256,102.38255367040462,2.681885690985165,0.0,0.5044616159509256,0.0,102.38255367040462,0.0,2.681885690985165,103.6022348621826,-1.2196811917779797
+dp_eps1.0,dp,1.0,True,Bwd Packet Length Std,Packet lengths,0.34757454214966893,74.28635401650165,1.054090608671079,0.0,0.34757454214966893,0.0,74.28635401650165,0.0,1.054090608671079,74.38244115636138,-0.09608713985973338
+dp_eps1.0,dp,1.0,True,Flow Bytes/s,Rates & volumes,0.7618302936549837,4.683600716963596,2.39678337128452,0.0010278079618858155,0.7608024856930978,0.010846478640141172,4.6727542383234555,0.01738323801967163,2.3794001332648484,4.7044051391151225,-0.020804422151526225
+dp_eps1.0,dp,1.0,True,Flow Packets/s,Rates & volumes,0.8480659757498178,9.396842877120914,3.6764908906054954,0.006053432995836729,0.8420125427539811,0.001973977782878242,9.394868899338036,0.10801522908735217,3.568475661518143,9.638561481152319,-0.241718604031405
+dp_eps1.0,dp,1.0,True,Flow IAT Mean,Flow timing,0.2700536157569695,25.24696211701658,0.6717277659933877,0.0,0.2700536157569695,0.0,25.24696211701658,0.0,0.6717277659933877,25.623524424402998,-0.3765623073864184
+dp_eps1.0,dp,1.0,True,Flow IAT Std,Flow timing,0.24854487624562174,14.088908913081921,0.6474347573581875,0.0,0.24854487624562174,0.0,14.088908913081921,0.0,0.6474347573581875,14.189842424445603,-0.10093351136368156
+dp_eps1.0,dp,1.0,True,Flow IAT Max,Flow timing,0.24063219625766147,4.363693913037775,0.6627628221942514,0.0,0.24063219625766147,0.0,4.363693913037775,0.0,0.6627628221942514,4.671920459533207,-0.30822654649543235
+dp_eps1.0,dp,1.0,True,Flow IAT Min,Flow timing,0.2932828344042245,40.29202552675251,0.6578253500272309,0.0,0.2932828344042245,5.308025769478766e-10,40.29202552622171,0.0,0.6578253500272309,39.8101853747426,0.4818401520099087
+dp_eps1.0,dp,1.0,True,Fwd IAT Total,Flow timing,0.19695940824945668,3.111243793588449,0.49910248141728425,0.0,0.19695940824945668,0.0,3.111243793588449,0.0,0.49910248141728425,3.412349829020787,-0.3011060354323378
+dp_eps1.0,dp,1.0,True,Fwd IAT Mean,Flow timing,0.2272270081810526,11.6142122979626,0.5389835878043677,0.0,0.2272270081810526,0.0,11.6142122979626,0.0,0.5389835878043677,11.98035889009155,-0.36614659212894907
+dp_eps1.0,dp,1.0,True,Fwd IAT Std,Flow timing,0.24435988020206773,11.744601112562954,0.6201542099864301,0.0,0.24435988020206773,0.0,11.744601112562954,0.0,0.6201542099864301,11.831897990477776,-0.08729687791482199
+dp_eps1.0,dp,1.0,True,Fwd IAT Max,Flow timing,0.23895131053115068,4.46832991830396,0.6435685021205356,0.0,0.23895131053115068,0.0,4.46832991830396,0.0,0.6435685021205356,4.657210107337141,-0.18888018903318127
+dp_eps1.0,dp,1.0,True,Fwd IAT Min,Flow timing,0.25771025538435005,13.181000613253659,0.5923708056833575,0.0,0.25771025538435005,0.0,13.181000613253659,0.0,0.5923708056833575,13.245767043072805,-0.06476642981914615
+dp_eps1.0,dp,1.0,True,Bwd IAT Total,Flow timing,0.19472957566260538,3.64415680930926,0.458809593346809,0.0,0.19472957566260538,0.0,3.64415680930926,0.0,0.458809593346809,3.969667083439433,-0.3255102741301732
+dp_eps1.0,dp,1.0,True,Bwd IAT Mean,Flow timing,0.22771599214540497,12.59402698588953,0.5206988125196439,0.0,0.22771599214540497,0.0,12.59402698588953,0.0,0.5206988125196439,12.774945909910233,-0.18091892402070364
+dp_eps1.0,dp,1.0,True,Bwd IAT Std,Flow timing,0.24985188574155887,17.834642683510243,0.5904034689198484,0.0,0.24985188574155887,0.0,17.834642683510243,0.0,0.5904034689198484,18.098687820126575,-0.2640451366163319
+dp_eps1.0,dp,1.0,True,Bwd IAT Max,Flow timing,0.24171202490481156,6.427904977403448,0.6178056006464778,0.0,0.24171202490481156,0.0,6.427904977403448,0.0,0.6178056006464778,6.629217237942801,-0.20131226053935336
+dp_eps1.0,dp,1.0,True,Bwd IAT Min,Flow timing,0.2606085092288304,13.634541138849325,0.5977652142311934,0.0,0.2606085092288304,0.0,13.634541138849325,0.0,0.5977652142311934,13.640681196318997,-0.0061400574696719445
+dp_eps1.0,dp,1.0,True,Fwd PSH Flags,TCP flags,0.2454924145488834,4.561038200880438,0.5642112288476624,0.0,0.2454924145488834,0.0,4.561038200880438,0.0,0.5642112288476624,4.647407590684044,-0.08636938980360576
+dp_eps1.0,dp,1.0,True,Fwd URG Flags,TCP flags,0.30691519320226734,176.01830463582377,0.6823645860783767,0.0,0.30691519320226734,0.0,176.01830463582377,0.0,0.6823645860783767,177.51327423981542,-1.494969603991649
+dp_eps1.0,dp,1.0,True,Fwd Header Length,Headers & window,0.30266300123603057,631.2941348925823,0.6715371740078887,2.9710253777221715e-06,0.30266003021065285,0.0,631.2941348925823,4.986424987927338e-05,0.6714873097580094,630.3333855531353,0.9607493394470339
+dp_eps1.0,dp,1.0,True,Bwd Header Length,Headers & window,0.3111953973157593,9050.049951055507,0.692978959629172,4.361600607890479e-06,0.3111910357151514,0.0,9050.049951055507,8.220890899728495e-05,0.6928967507201748,9138.023876958667,-87.9739259031594
+dp_eps1.0,dp,1.0,True,Fwd Packets/s,Rates & volumes,0.2688483849224025,10.075942463731792,0.6066915438932728,0.005433196620147165,0.2634151883022553,0.0014067435050816694,10.074535720226711,0.09643021710886765,0.5102613267844052,10.10591398027456,-0.029971516542767418
+dp_eps1.0,dp,1.0,True,Bwd Packets/s,Rates & volumes,0.28836857048513587,50.717041428908026,0.6612657861719634,3.451109615222382e-05,0.28833405938898365,0.00012288765772159034,50.7169185412503,0.0004400970603749234,0.6608256891115885,51.203180561186805,-0.4861391322787796
+dp_eps1.0,dp,1.0,True,Min Packet Length,Packet lengths,0.4325742482370018,2590.5764632095584,2.701602543343504,0.0,0.4325742482370018,0.0,2590.5764632095584,0.0,2.701602543343504,2561.5463981898574,29.03006501970094
+dp_eps1.0,dp,1.0,True,Max Packet Length,Packet lengths,0.33845686630393895,30.561010013409025,0.9988030952221495,0.0,0.33845686630393895,0.0,30.561010013409025,0.0,0.9988030952221495,30.888073778400393,-0.3270637649913688
+dp_eps1.0,dp,1.0,True,Packet Length Mean,Packet lengths,0.5616521867581442,206.5851363509927,3.394794742034959,0.0,0.5616521867581442,0.0,206.5851363509927,0.0,3.394794742034959,205.85434690290498,0.7307894480877337
+dp_eps1.0,dp,1.0,True,Packet Length Std,Packet lengths,0.4050566715529519,99.59449059413217,1.6100295882376503,0.0,0.4050566715529519,0.0,99.59449059413217,0.0,1.6100295882376503,99.16190703619522,0.432583557936951
+dp_eps1.0,dp,1.0,True,Packet Length Variance,Packet lengths,0.3632870425183564,617.8687599633352,1.3204117514528546,0.0,0.3632870425183564,0.0,617.8687599633352,0.0,1.3204117514528546,618.3256789454953,-0.4569189821601185
+dp_eps1.0,dp,1.0,True,FIN Flag Count,TCP flags,0.23332404065992687,1321946641.208546,0.5511564056410915,0.0,0.23332404065992687,0.0,1321946641.208546,0.0,0.5511564056410915,1329760958.268128,-7814317.059581995
+dp_eps1.0,dp,1.0,True,SYN Flag Count,TCP flags,0.20743820295102533,1110253543.2592182,0.4990331589409232,0.0,0.20743820295102533,0.0,1110253543.2592182,0.0,0.4990331589409232,1089236154.066573,21017389.19264531
+dp_eps1.0,dp,1.0,True,RST Flag Count,TCP flags,0.30950624838551327,14142365232.804781,0.6901875778444748,0.0,0.30950624838551327,0.0,14142365232.804781,0.0,0.6901875778444748,14209449912.76397,-67084679.95918846
+dp_eps1.0,dp,1.0,True,PSH Flag Count,TCP flags,0.031018990566559386,512206601.2134996,0.08417545480479444,0.0,0.031018990566559386,0.0,512206601.2134996,0.0,0.08417545480479444,512623952.7363201,-417351.5228204727
+dp_eps1.0,dp,1.0,True,ACK Flag Count,TCP flags,0.026694208395338117,499995326.99479896,0.0726617776119941,0.0,0.026694208395338117,0.0,499995326.99479896,0.0,0.0726617776119941,505927501.6083089,-5932174.613509953
+dp_eps1.0,dp,1.0,True,URG Flag Count,TCP flags,0.14493364463358233,778836934.6660312,0.3636812459569298,0.0,0.14493364463358233,0.0,778836934.6660312,0.0,0.3636812459569298,776466133.9139279,2370800.7521033287
+dp_eps1.0,dp,1.0,True,CWE Flag Count,TCP flags,0.3107525422718878,41844345687.866936,0.6920531352422856,0.0,0.3107525422718878,0.0,41844345687.866936,0.0,0.6920531352422856,41604673649.95673,239672037.91020203
+dp_eps1.0,dp,1.0,True,ECE Flag Count,TCP flags,0.30961071235623416,14105922861.16911,0.6904568483310407,0.0,0.30961071235623416,0.0,14105922861.16911,0.0,0.6904568483310407,14178489662.964312,-72566801.79520226
+dp_eps1.0,dp,1.0,True,Down/Up Ratio,Rates & volumes,0.32037555096922765,337326971.73478943,1.2050917587978331,0.0,0.32037555096922765,0.0,337326971.73478943,0.0,1.2050917587978331,336910263.0441379,416708.690651536
+dp_eps1.0,dp,1.0,True,Average Packet Size,Packet lengths,0.5601403696618112,190.9761168366244,3.273109733886672,0.0,0.5601403696618112,0.0,190.9761168366244,0.0,3.273109733886672,189.6798631001102,1.2962537365142168
+dp_eps1.0,dp,1.0,True,Avg Fwd Segment Size,Packet lengths,0.350523132588958,333.887252256172,1.2580207364556788,0.0,0.350523132588958,0.0,333.887252256172,0.0,1.2580207364556788,335.12726960338915,-1.2400173472171332
+dp_eps1.0,dp,1.0,True,Avg Bwd Segment Size,Packet lengths,0.504480736665666,102.28437831342653,2.6713091761279295,0.0,0.504480736665666,0.0,102.28437831342653,0.0,2.6713091761279295,103.60223486217927,-1.3178565487527436
+dp_eps1.0,dp,1.0,True,Subflow Fwd Packets,Packet counts,0.31111351225399775,301043.80893326696,0.6927920788226379,0.0,0.31111351225399775,0.0,301043.80893326696,0.0,0.6927920788226379,295026.5303511268,6017.278582140163
+dp_eps1.0,dp,1.0,True,Subflow Fwd Bytes,Packet counts,0.3114934731065576,1480184267.7923484,0.6951896218588318,0.0,0.3114934731065576,0.0,1480184267.7923484,0.0,0.6951896218588318,1452605913.4334686,27578354.358879805
+dp_eps1.0,dp,1.0,True,Subflow Bwd Packets,Packet counts,0.3108756789289754,220310.2579551074,0.6921939852253073,0.0,0.3108756789289754,0.0,220310.2579551074,0.0,0.6921939852253073,221752.38834986664,-1442.1303947592387
+dp_eps1.0,dp,1.0,True,Subflow Bwd Bytes,Packet counts,0.3113931822206353,6472981.616464485,0.6941774238167207,0.0,0.3113931822206353,0.0,6472981.616464485,0.0,0.6941774238167207,6404853.321198301,68128.29526618402
+dp_eps1.0,dp,1.0,True,Init_Win_bytes_forward,Headers & window,0.30111228871164514,4.098701179137468,1.0862468771398843,0.0,0.30111228871164514,0.0,4.098701179137468,0.0,1.0862468771398843,4.489397745748282,-0.3906965666108144
+dp_eps1.0,dp,1.0,True,Init_Win_bytes_backward,Headers & window,0.23208004931427526,7.199760144010565,0.5493192679593374,0.0,0.23208004931427526,0.0,7.199760144010565,0.0,0.5493192679593374,7.343461470939136,-0.1437013269285714
+dp_eps1.0,dp,1.0,True,act_data_pkt_fwd,Packet counts,0.3112390850676416,350333.8654214083,0.6930914392108481,0.0,0.3112390850676416,0.0,350333.8654214083,0.0,0.6930914392108481,347523.3857058959,2810.479715512425
+dp_eps1.0,dp,1.0,True,min_seg_size_forward,Packet lengths,6.7423901125740475e-06,0.05644007892308732,0.00013734361983728545,6.7423901125740475e-06,0.0,0.0,0.05644007892308732,0.00013734361983728545,0.0,0.05699894026789118,-0.0005588613448038598
+dp_eps1.0,dp,1.0,True,Active Mean,Flow timing,0.29113759042562715,176.0019983182371,0.6482234661401172,0.0,0.29113759042562715,0.0,176.0019983182371,0.0,0.6482234661401172,174.76145073412331,1.2405475841137843
+dp_eps1.0,dp,1.0,True,Active Std,Flow timing,0.2964466148972766,288.5637154537778,0.6605761174094901,0.0,0.2964466148972766,0.0,288.5637154537778,0.0,0.6605761174094901,288.0568552086857,0.5068602450920707
+dp_eps1.0,dp,1.0,True,Active Max,Flow timing,0.2845777429927141,109.72972284855926,0.6339592346658819,0.0,0.2845777429927141,0.0,109.72972284855926,0.0,0.6339592346658819,110.54088533127707,-0.8111624827178048
+dp_eps1.0,dp,1.0,True,Active Min,Flow timing,0.293459077626888,195.472308123116,0.6541148969512521,0.0,0.293459077626888,0.0,195.472308123116,0.0,0.6541148969512521,196.34841167090772,-0.8761035477917289
+dp_eps1.0,dp,1.0,True,Idle Mean,Flow timing,0.2385557370115658,4.479054727623332,0.6212197105399727,0.0,0.2385557370115658,0.0,4.479054727623332,0.0,0.6212197105399727,4.8293270123973,-0.3502722847739683
+dp_eps1.0,dp,1.0,True,Idle Std,Flow timing,0.27249052566196846,24.803835651663874,0.6178020179051219,0.0,0.27249052566196846,0.0,24.803835651663874,0.0,0.6178020179051219,24.619581347643045,0.1842543040208291
+dp_eps1.0,dp,1.0,True,Idle Max,Flow timing,0.24508752904295003,4.400435665918737,0.6426265803924291,0.0,0.24508752904295003,0.0,4.400435665918737,0.0,0.6426265803924291,4.684305446029694,-0.2838697801109573
+dp_eps1.0,dp,1.0,True,Idle Min,Flow timing,0.2489120435852716,4.6009416842951865,0.6386037239673509,0.0,0.2489120435852716,0.0,4.6009416842951865,0.0,0.6386037239673509,4.881733322520676,-0.28079163822548914
+dp_eps5.0,dp,5.0,True,Flow Duration,Flow timing,0.15434305651879382,0.5554659464692452,0.39961705654253743,0.0,0.15434305651879382,0.0,0.5554659464692452,0.0,0.39961705654253743,0.681184159399134,-0.12571821292988883
+dp_eps5.0,dp,5.0,True,Total Fwd Packets,Packet counts,0.3108947786048883,59167.625648134686,0.6922689191775134,0.0,0.3108947786048883,0.0,59167.625648134686,0.0,0.6922689191775134,59005.306070225364,162.3195779093221
+dp_eps5.0,dp,5.0,True,Total Backward Packets,Packet counts,0.31091247450007437,44664.96775093985,0.6923192596225279,0.0,0.31091247450007437,0.0,44664.96775093985,0.0,0.6923192596225279,44350.477669973334,314.4900809665196
+dp_eps5.0,dp,5.0,True,Total Length of Fwd Packets,Packet counts,0.3117655951421226,292196485.4067895,0.6958678078265709,0.0,0.3117655951421226,0.0,292196485.4067895,0.0,0.6958678078265709,290128036.52921957,2068448.8775699139
+dp_eps5.0,dp,5.0,True,Total Length of Bwd Packets,Packet counts,0.31140179026846565,1286747.5527826375,0.6935750880942568,0.0,0.31140179026846565,0.0,1286747.5527826375,0.0,0.6935750880942568,1280953.2486343458,5794.304148291703
+dp_eps5.0,dp,5.0,True,Fwd Packet Length Max,Packet lengths,0.2717502073893665,16.994257837345945,0.7345757715030001,0.0,0.2717502073893665,0.0,16.994257837345945,0.0,0.7345757715030001,17.328693807856027,-0.3344359705100821
+dp_eps5.0,dp,5.0,True,Fwd Packet Length Min,Packet lengths,0.4207023156773743,214.05415286570994,2.041854989814635,0.0,0.4207023156773743,0.0,214.05415286570994,0.0,2.041854989814635,215.5815569630222,-1.5274040973122567
+dp_eps5.0,dp,5.0,True,Fwd Packet Length Mean,Packet lengths,0.3194790242847034,66.65935515763994,0.9559303260268043,0.0,0.3194790242847034,0.0,66.65935515763994,0.0,0.9559303260268043,67.02545392067783,-0.3660987630378969
+dp_eps5.0,dp,5.0,True,Fwd Packet Length Std,Packet lengths,0.3203573887767802,43.81416098121021,1.0133345878745454,0.0,0.3203573887767802,0.0,43.81416098121021,0.0,1.0133345878745454,44.14894806965676,-0.3347870884465536
+dp_eps5.0,dp,5.0,True,Bwd Packet Length Max,Packet lengths,0.25784942284920825,6.101709537808131,0.650928832630365,0.0,0.25784942284920825,0.0,6.101709537808131,0.0,0.650928832630365,6.4302103217626385,-0.32850078395450755
+dp_eps5.0,dp,5.0,True,Bwd Packet Length Min,Packet lengths,0.4037843271893876,188.1536825575078,1.5748913802592557,0.0,0.4037843271893876,0.0,188.1536825575078,0.0,1.5748913802592557,184.91890024942978,3.2347823080780245
+dp_eps5.0,dp,5.0,True,Bwd Packet Length Mean,Packet lengths,0.4255761684787851,20.088884437598573,1.7659859534150872,0.0,0.4255761684787851,0.0,20.088884437598573,0.0,1.7659859534150872,20.72044697243652,-0.631562534837947
+dp_eps5.0,dp,5.0,True,Bwd Packet Length Std,Packet lengths,0.2611621521492341,14.548932691833002,0.6396452851576645,0.0,0.2611621521492341,0.0,14.548932691833002,0.0,0.6396452851576645,14.876488231272276,-0.32755553943927396
+dp_eps5.0,dp,5.0,True,Flow Bytes/s,Rates & volumes,0.42944687017202005,0.9337898493513207,1.0396129347940666,0.0010278079618858155,0.4284190622101342,0.010846478640141172,0.9229433707111795,0.01738323801967163,1.022229696774395,0.9408810278230244,-0.007091178471703707
+dp_eps5.0,dp,5.0,True,Flow Packets/s,Rates & volumes,0.6738625287721796,1.799733429092121,2.1970753415704607,0.006053432995836729,0.6678090957763428,0.001973977782878242,1.7977594513092428,0.10801522908735217,2.0890601124831085,1.9277122962304638,-0.12797886713834283
+dp_eps5.0,dp,5.0,True,Flow IAT Mean,Flow timing,0.16704459307507874,4.873638715239651,0.38118490916360315,0.0,0.16704459307507874,0.0,4.873638715239651,0.0,0.38118490916360315,5.1247048848806,-0.2510661696409491
+dp_eps5.0,dp,5.0,True,Flow IAT Std,Flow timing,0.1406479919348172,2.6440585061855444,0.3354900944619981,0.0,0.1406479919348172,0.0,2.6440585061855444,0.0,0.3354900944619981,2.8379684848891205,-0.19390997870357607
+dp_eps5.0,dp,5.0,True,Flow IAT Max,Flow timing,0.18568724002471393,0.7931726236482664,0.4712332565312887,0.0,0.18568724002471393,0.0,0.7931726236482664,0.0,0.4712332565312887,0.9343840919066414,-0.14121146825837505
+dp_eps5.0,dp,5.0,True,Flow IAT Min,Flow timing,0.2758630115659058,8.038538611556527,0.6180101830398792,0.0,0.2758630115659058,5.308025769478766e-10,8.038538611025725,0.0,0.6180101830398792,7.96203707494852,0.07650153660800729
+dp_eps5.0,dp,5.0,True,Fwd IAT Total,Flow timing,0.16351216177281644,0.5616472192313571,0.4170611723244165,0.0,0.16351216177281644,0.0,0.5616472192313571,0.0,0.4170611723244165,0.6824699658041574,-0.12082274657280034
+dp_eps5.0,dp,5.0,True,Fwd IAT Mean,Flow timing,0.12350764709701617,2.2123368635049334,0.2886265716023856,0.0,0.12350764709701617,0.0,2.2123368635049334,0.0,0.2886265716023856,2.39607177801831,-0.18373491451337642
+dp_eps5.0,dp,5.0,True,Fwd IAT Std,Flow timing,0.154804527633287,2.2030655219646027,0.3666969402262668,0.0,0.154804527633287,0.0,2.2030655219646027,0.0,0.3666969402262668,2.3663795980955555,-0.16331407613095283
+dp_eps5.0,dp,5.0,True,Fwd IAT Max,Flow timing,0.19232664092997886,0.8212986049857548,0.4835498415500354,0.0,0.19232664092997886,0.0,0.8212986049857548,0.0,0.4835498415500354,0.9314420214674282,-0.11014341648167336
+dp_eps5.0,dp,5.0,True,Fwd IAT Min,Flow timing,0.24300650747367358,2.6083951601040174,0.5597783920178458,0.0,0.24300650747367358,0.0,2.6083951601040174,0.0,0.5597783920178458,2.649153408614561,-0.04075824851054355
+dp_eps5.0,dp,5.0,True,Bwd IAT Total,Flow timing,0.17625625056286304,0.6824808222911947,0.43555876137385247,0.0,0.17625625056286304,0.0,0.6824808222911947,0.0,0.43555876137385247,0.7939334166878865,-0.11145259439669186
+dp_eps5.0,dp,5.0,True,Bwd IAT Mean,Flow timing,0.1524048484440614,2.437174532137284,0.3594686847065362,0.0,0.1524048484440614,0.0,2.437174532137284,0.0,0.3594686847065362,2.5549891819820463,-0.11781464984476209
+dp_eps5.0,dp,5.0,True,Bwd IAT Std,Flow timing,0.18081652440390025,3.4460219543146353,0.4205523820408319,0.0,0.18081652440390025,0.0,3.4460219543146353,0.0,0.4205523820408319,3.619737564025315,-0.17371560971067979
+dp_eps5.0,dp,5.0,True,Bwd IAT Max,Flow timing,0.20772944460653991,1.2148038013133697,0.5010248959477117,0.0,0.20772944460653991,0.0,1.2148038013133697,0.0,0.5010248959477117,1.3258434475885603,-0.11103964627519058
+dp_eps5.0,dp,5.0,True,Bwd IAT Min,Flow timing,0.24668268674232915,2.7037073617932275,0.5660449900746286,0.0,0.24668268674232915,0.0,2.7037073617932275,0.0,0.5660449900746286,2.728136239263799,-0.024428877470571653
+dp_eps5.0,dp,5.0,True,Fwd PSH Flags,TCP flags,0.29008950932327404,0.9129536639556186,0.6403565261453419,0.0,0.29008950932327404,0.0,0.9129536639556186,0.0,0.6403565261453419,0.9294815181368089,-0.016527854181190293
+dp_eps5.0,dp,5.0,True,Fwd URG Flags,TCP flags,0.2918885947577436,35.20366092716469,0.6447738639308191,0.0,0.2918885947577436,0.0,35.20366092716469,0.0,0.6447738639308191,35.50265484796308,-0.29899392079838805
+dp_eps5.0,dp,5.0,True,Fwd Header Length,Headers & window,0.2702913836085961,126.25882198798078,0.5917651787520147,2.9710253777221715e-06,0.2702884125832184,0.0,126.25882198798078,4.986424987927338e-05,0.5917153145021354,126.06667711062704,0.19214487735374064
+dp_eps5.0,dp,5.0,True,Bwd Header Length,Headers & window,0.31064216829258595,1810.009909685177,0.6915912488391409,4.361600607890479e-06,0.31063780669197805,0.0,1810.009909685177,8.220890899728495e-05,0.6915090399301437,1827.6047753917337,-17.594865706556675
+dp_eps5.0,dp,5.0,True,Fwd Packets/s,Rates & volumes,0.22708503566197666,1.9530723119760858,0.5162693745934259,0.005433196620147165,0.2216518390418295,0.0014067435050816694,1.951665568471004,0.09643021710886765,0.41983915748455825,2.021182796054912,-0.06811048407882603
+dp_eps5.0,dp,5.0,True,Bwd Packets/s,Rates & volumes,0.24037831730658057,10.039020373685615,0.5384926938126519,3.451109615222382e-05,0.24034380621042836,0.00012288765772159034,10.038897486027894,0.0004400970603749234,0.5380525967522769,10.240636112237363,-0.20161573855174808
+dp_eps5.0,dp,5.0,True,Min Packet Length,Packet lengths,0.422843671991448,517.5873114971641,2.108397914148179,0.0,0.422843671991448,0.0,517.5873114971641,0.0,2.108397914148179,512.3092796379715,5.278031859192652
+dp_eps5.0,dp,5.0,True,Max Packet Length,Packet lengths,0.24120463439741596,5.799672693973768,0.5841468383512967,0.0,0.24120463439741596,0.0,5.799672693973768,0.0,0.5841468383512967,6.177614755680079,-0.3779420617063103
+dp_eps5.0,dp,5.0,True,Packet Length Mean,Packet lengths,0.49635349502097803,40.89859929819974,2.3343504973285176,0.0,0.49635349502097803,0.0,40.89859929819974,0.0,2.3343504973285176,41.170869380580996,-0.2722700823812545
+dp_eps5.0,dp,5.0,True,Packet Length Std,Packet lengths,0.3085049040396133,19.563938539529527,0.9662255167406086,0.0,0.3085049040396133,0.0,19.563938539529527,0.0,0.9662255167406086,19.832381407239044,-0.268442867709517
+dp_eps5.0,dp,5.0,True,Packet Length Variance,Packet lengths,0.3332791613962322,123.33757064033719,0.9898256111133537,0.0,0.3332791613962322,0.0,123.33757064033719,0.0,0.9898256111133537,123.66513578909905,-0.32756514876186316
+dp_eps5.0,dp,5.0,True,FIN Flag Count,TCP flags,0.23332404065992687,264389328.1064497,0.5511564056410915,0.0,0.23332404065992687,0.0,264389328.1064497,0.0,0.5511564056410915,265952191.65362555,-1562863.5471758544
+dp_eps5.0,dp,5.0,True,SYN Flag Count,TCP flags,0.20743820295102533,222050708.48899797,0.4990331589409232,0.0,0.20743820295102533,0.0,222050708.48899797,0.0,0.4990331589409232,217847230.8133146,4203477.675683379
+dp_eps5.0,dp,5.0,True,RST Flag Count,TCP flags,0.30950624838551327,2828473046.5609493,0.6901875778444748,0.0,0.30950624838551327,0.0,2828473046.5609493,0.0,0.6901875778444748,2841889982.552794,-13416935.991844654
+dp_eps5.0,dp,5.0,True,PSH Flag Count,TCP flags,0.031018990566559386,102441319.69047675,0.08417545480479444,0.0,0.031018990566559386,0.0,102441319.69047675,0.0,0.08417545480479444,102524790.54726401,-83470.85678726435
+dp_eps5.0,dp,5.0,True,ACK Flag Count,TCP flags,0.026694208395338117,99999064.8750185,0.0726617776119941,0.0,0.026694208395338117,0.0,99999064.8750185,0.0,0.0726617776119941,101185500.32166179,-1186435.446643278
+dp_eps5.0,dp,5.0,True,URG Flag Count,TCP flags,0.14493364463358233,155767386.67612374,0.3636812459569298,0.0,0.14493364463358233,0.0,155767386.67612374,0.0,0.3636812459569298,155293226.7827856,474159.8933381438
+dp_eps5.0,dp,5.0,True,CWE Flag Count,TCP flags,0.3107525422718878,8368869137.5734005,0.6920531352422856,0.0,0.3107525422718878,0.0,8368869137.5734005,0.0,0.6920531352422856,8320934729.991347,47934407.582053185
+dp_eps5.0,dp,5.0,True,ECE Flag Count,TCP flags,0.30961071235623416,2821184572.2241507,0.6904568483310407,0.0,0.30961071235623416,0.0,2821184572.2241507,0.0,0.6904568483310407,2835697932.592862,-14513360.368711472
+dp_eps5.0,dp,5.0,True,Down/Up Ratio,Rates & volumes,0.3203751531306569,67465393.87454312,1.2050884684236751,0.0,0.3203751531306569,0.0,67465393.87454312,0.0,1.2050884684236751,67382052.60882759,83341.26571552455
+dp_eps5.0,dp,5.0,True,Average Packet Size,Packet lengths,0.49105120753577103,37.788152750441334,2.2350530241881814,0.0,0.49105120753577103,0.0,37.788152750441334,0.0,2.2350530241881814,37.93597262002204,-0.14781986958070803
+dp_eps5.0,dp,5.0,True,Avg Fwd Segment Size,Packet lengths,0.31954165208506113,66.56451733890218,0.9536320796936931,0.0,0.31954165208506113,0.0,66.56451733890218,0.0,0.9536320796936931,67.02545392067783,-0.46093658177565544
+dp_eps5.0,dp,5.0,True,Avg Bwd Segment Size,Packet lengths,0.42587937406243004,20.08625855939599,1.7659107935844969,0.0,0.42587937406243004,0.0,20.08625855939599,0.0,1.7659107935844969,20.720446972435855,-0.6341884130398654
+dp_eps5.0,dp,5.0,True,Subflow Fwd Packets,Packet counts,0.31102076266130485,60208.75679040423,0.6925864178057108,0.0,0.31102076266130485,0.0,60208.75679040423,0.0,0.6925864178057108,59005.306070225364,1203.4507201788656
+dp_eps5.0,dp,5.0,True,Subflow Fwd Bytes,Packet counts,0.3114926493986525,296036853.51398575,0.6951698945230517,0.0,0.3114926493986525,0.0,296036853.51398575,0.0,0.6951698945230517,290521182.6866937,5515670.827292025
+dp_eps5.0,dp,5.0,True,Subflow Bwd Packets,Packet counts,0.3107745588706635,44062.04767943614,0.691971945443802,0.0,0.3107745588706635,0.0,44062.04767943614,0.0,0.691971945443802,44350.477669973334,-288.4299905371954
+dp_eps5.0,dp,5.0,True,Subflow Bwd Bytes,Packet counts,0.31136418203628324,1294596.3214792497,0.693504893027104,0.0,0.31136418203628324,0.0,1294596.3214792497,0.0,0.693504893027104,1280970.6642396604,13625.657239589375
+dp_eps5.0,dp,5.0,True,Init_Win_bytes_forward,Headers & window,0.31358329325716794,0.706147635689914,0.9128324486831836,0.0,0.31358329325716794,0.0,0.706147635689914,0.0,0.9128324486831836,0.8978795491496563,-0.19173191345974228
+dp_eps5.0,dp,5.0,True,Init_Win_bytes_backward,Headers & window,0.21155405247569634,1.3853029534566728,0.49528391486573536,0.0,0.21155405247569634,0.0,1.3853029534566728,0.0,0.49528391486573536,1.468692294187827,-0.08338934073115434
+dp_eps5.0,dp,5.0,True,act_data_pkt_fwd,Packet counts,0.31116496073079936,70066.77023665767,0.6929225660094483,0.0,0.31116496073079936,0.0,70066.77023665767,0.0,0.6929225660094483,69504.67714117919,562.0930954784853
+dp_eps5.0,dp,5.0,True,min_seg_size_forward,Packet lengths,6.7423901125740475e-06,0.011283836187720199,0.00013734361983728545,6.7423901125740475e-06,0.0,0.0,0.011283836187720199,0.00013734361983728545,0.0,0.011399788053578237,-0.0001159518658580376
+dp_eps5.0,dp,5.0,True,Active Mean,Flow timing,0.26246092627173495,35.11450367592407,0.5901876186783788,0.0,0.26246092627173495,0.0,35.11450367592407,0.0,0.5901876186783788,34.952290146824666,0.16221352909940379
+dp_eps5.0,dp,5.0,True,Active Std,Flow timing,0.27416417004135885,57.626514066795245,0.6139022407950401,0.0,0.27416417004135885,0.0,57.626514066795245,0.0,0.6139022407950401,57.611371041737144,0.0151430250581015
+dp_eps5.0,dp,5.0,True,Active Max,Flow timing,0.2445171285947525,21.842022706467247,0.5524024438793224,0.0,0.2445171285947525,0.0,21.842022706467247,0.0,0.5524024438793224,22.10817706625541,-0.26615435978816393
+dp_eps5.0,dp,5.0,True,Active Min,Flow timing,0.26858626749592823,39.01682866402961,0.6030682759940483,0.0,0.26858626749592823,0.0,39.01682866402961,0.0,0.6030682759940483,39.269682334181546,-0.2528536701519357
+dp_eps5.0,dp,5.0,True,Idle Mean,Flow timing,0.20966631307786776,0.8191673893004658,0.5207561086432582,0.0,0.20966631307786776,0.0,0.8191673893004658,0.0,0.5207561086432582,0.9658654024794601,-0.14669801317899422
+dp_eps5.0,dp,5.0,True,Idle Std,Flow timing,0.2509747138546863,4.91938431813665,0.5740882691128142,0.0,0.2509747138546863,0.0,4.91938431813665,0.0,0.5740882691128142,4.923916269528609,-0.004531951391959055
+dp_eps5.0,dp,5.0,True,Idle Max,Flow timing,0.2220793687345005,0.8124467225149032,0.5474246187221117,0.0,0.2220793687345005,0.0,0.8124467225149032,0.0,0.5474246187221117,0.9368610892059388,-0.12441436669103556
+dp_eps5.0,dp,5.0,True,Idle Min,Flow timing,0.214293929929229,0.8527024656089552,0.5215631580658888,0.0,0.214293929929229,0.0,0.8527024656089552,0.0,0.5215631580658888,0.9763466645041352,-0.12364419889517997
+dp_eps10.0,dp,10.0,True,Flow Duration,Flow timing,0.13402075049153905,0.2812008862102597,0.3496244435339726,0.0,0.13402075049153905,0.0,0.2812008862102597,0.0,0.3496244435339726,0.340592079699567,-0.059391193489307326
+dp_eps10.0,dp,10.0,True,Total Fwd Packets,Packet counts,0.3108329120227996,29583.809974314932,0.6921452243727326,0.0,0.3108329120227996,0.0,29583.809974314932,0.0,0.6921452243727326,29502.653035112682,81.15693920225021
+dp_eps10.0,dp,10.0,True,Total Backward Packets,Packet counts,0.3108441474604869,22332.481697352516,0.692181488089062,0.0,0.3108441474604869,0.0,22332.481697352516,0.0,0.692181488089062,22175.238834986667,157.24286236584885
+dp_eps10.0,dp,10.0,True,Total Length of Fwd Packets,Packet counts,0.31176473150671996,146098242.67873424,0.6958447950173664,0.0,0.31176473150671996,0.0,146098242.67873424,0.0,0.6958447950173664,145064018.26460978,1034224.414124459
+dp_eps10.0,dp,10.0,True,Total Length of Bwd Packets,Packet counts,0.3113805480638714,643373.7749008806,0.6934673068048605,0.0,0.3113805480638714,0.0,643373.7749008806,0.0,0.6934673068048605,640476.6243171729,2897.1505837077275
+dp_eps10.0,dp,10.0,True,Fwd Packet Length Max,Packet lengths,0.23036503009884435,8.388315927049382,0.5833096336943586,0.0,0.23036503009884435,0.0,8.388315927049382,0.0,0.5833096336943586,8.664346903928013,-0.27603097687863176
+dp_eps10.0,dp,10.0,True,Fwd Packet Length Min,Packet lengths,0.41143536760523647,106.87642574433328,1.797866873163492,0.0,0.41143536760523647,0.0,106.87642574433328,0.0,1.797866873163492,107.7907784815111,-0.914352737177822
+dp_eps10.0,dp,10.0,True,Fwd Packet Length Mean,Packet lengths,0.2980156413761111,33.206844339473236,0.8275199434148781,0.0,0.2980156413761111,0.0,33.206844339473236,0.0,0.8275199434148781,33.51272696033892,-0.3058826208656811
+dp_eps10.0,dp,10.0,True,Fwd Packet Length Std,Packet lengths,0.29022479406773183,21.791427961119247,0.8396969932871735,0.0,0.29022479406773183,0.0,21.791427961119247,0.0,0.8396969932871735,22.07447403482838,-0.2830460737091336
+dp_eps10.0,dp,10.0,True,Bwd Packet Length Max,Packet lengths,0.21683429845791993,2.915821174086571,0.5223002660905681,0.0,0.21683429845791993,0.0,2.915821174086571,0.0,0.5223002660905681,3.2151051608813193,-0.2992839867947481
+dp_eps10.0,dp,10.0,True,Bwd Packet Length Min,Packet lengths,0.38224856995329026,93.77358861727036,1.3258198466884143,0.0,0.38224856995329026,0.0,93.77358861727036,0.0,1.3258198466884143,92.45945012471489,1.3141384925554718
+dp_eps10.0,dp,10.0,True,Bwd Packet Length Mean,Packet lengths,0.3700696109018748,9.825131553852318,1.3940511988063566,0.0,0.3700696109018748,0.0,9.825131553852318,0.0,1.3940511988063566,10.36022348621826,-0.5350919323659422
+dp_eps10.0,dp,10.0,True,Bwd Packet Length Std,Packet lengths,0.20990565643355247,7.1082435153065076,0.4848086316681013,0.0,0.20990565643355247,0.0,7.1082435153065076,0.0,0.4848086316681013,7.438244115636138,-0.3300006003296305
+dp_eps10.0,dp,10.0,True,Flow Bytes/s,Rates & volumes,0.2667347209534216,0.4677072754878736,0.604351256329179,0.0010278079618858155,0.26570691299153576,0.010846478640141172,0.45686079684773245,0.01738323801967163,0.5869680183095073,0.4704405139115122,-0.0027332384236385954
+dp_eps10.0,dp,10.0,True,Flow Packets/s,Rates & volumes,0.5631763021774309,0.8767493539700786,1.623808213538571,0.006053432995836729,0.5571228691815941,0.001973977782878242,0.8747753761872004,0.10801522908735217,1.5157929844512188,0.9638561481152319,-0.08710679414515332
+dp_eps10.0,dp,10.0,True,Flow IAT Mean,Flow timing,0.12054701983766997,2.356727173339622,0.28087993253528476,0.0,0.12054701983766997,0.0,2.356727173339622,0.0,0.28087993253528476,2.5623524424403,-0.20562526910067813
+dp_eps10.0,dp,10.0,True,Flow IAT Std,Flow timing,0.11158531083198847,1.2675209664134195,0.2650245948762241,0.0,0.11158531083198847,0.0,1.2675209664134195,0.0,0.2650245948762241,1.4189842424445602,-0.15146327603114074
+dp_eps10.0,dp,10.0,True,Flow IAT Max,Flow timing,0.16418706651940387,0.3904827355868112,0.4148397209824901,0.0,0.16418706651940387,0.0,0.3904827355868112,0.0,0.4148397209824901,0.4671920459533207,-0.07670931036650952
+dp_eps10.0,dp,10.0,True,Flow IAT Min,Flow timing,0.2595304288193452,4.01314669436571,0.577932315524373,0.0,0.2595304288193452,5.308025769478766e-10,4.013146693834907,0.0,0.577932315524373,3.98101853747426,0.032128156891449766
+dp_eps10.0,dp,10.0,True,Fwd IAT Total,Flow timing,0.1461486487921595,0.28689360695602023,0.37332981310959445,0.0,0.1461486487921595,0.0,0.28689360695602023,0.0,0.37332981310959445,0.3412349829020787,-0.05434137594605848
+dp_eps10.0,dp,10.0,True,Fwd IAT Mean,Flow timing,0.0933975017236304,1.0659368240617129,0.22913181479690972,0.0,0.0933975017236304,0.0,1.0659368240617129,0.0,0.22913181479690972,1.198035889009155,-0.13209906494744206
+dp_eps10.0,dp,10.0,True,Fwd IAT Std,Flow timing,0.13326968311926315,1.0588012167217717,0.31609559895717465,0.0,0.13326968311926315,0.0,1.0588012167217717,0.0,0.31609559895717465,1.1831897990477778,-0.12438858232600603
+dp_eps10.0,dp,10.0,True,Fwd IAT Max,Flow timing,0.1746154776100424,0.4021365208339168,0.4369450805832351,0.0,0.1746154776100424,0.0,0.4021365208339168,0.0,0.4369450805832351,0.4657210107337141,-0.06358448989979726
+dp_eps10.0,dp,10.0,True,Fwd IAT Min,Flow timing,0.23482315918561147,1.2998520762376269,0.534290182949796,0.0,0.23482315918561147,0.0,1.2998520762376269,0.0,0.534290182949796,1.3245767043072805,-0.024724628069653587
+dp_eps10.0,dp,10.0,True,Bwd IAT Total,Flow timing,0.1656471621390301,0.34253255498363944,0.40904200446225425,0.0,0.1656471621390301,0.0,0.34253255498363944,0.0,0.40904200446225425,0.39696670834394326,-0.05443415336030383
+dp_eps10.0,dp,10.0,True,Bwd IAT Mean,Flow timing,0.1283813458464538,1.1892953062217884,0.31257480387496817,0.0,0.1283813458464538,0.0,1.1892953062217884,0.0,0.31257480387496817,1.2774945909910231,-0.08819928476923478
+dp_eps10.0,dp,10.0,True,Bwd IAT Std,Flow timing,0.1591220884209105,1.6845642916380745,0.37451934905511985,0.0,0.1591220884209105,0.0,1.6845642916380745,0.0,0.37451934905511985,1.8098687820126576,-0.12530449037458302
+dp_eps10.0,dp,10.0,True,Bwd IAT Max,Flow timing,0.19594270789426735,0.5937278766661709,0.47266430659016606,0.0,0.19594270789426735,0.0,0.5937278766661709,0.0,0.47266430659016606,0.6629217237942802,-0.06919384712810928
+dp_eps10.0,dp,10.0,True,Bwd IAT Min,Flow timing,0.23896842283781064,1.348673517215668,0.5409621626376016,0.0,0.23896842283781064,0.0,1.348673517215668,0.0,0.5409621626376016,1.3640681196318996,-0.015394602416231473
+dp_eps10.0,dp,10.0,True,Fwd PSH Flags,TCP flags,0.27504922866881076,0.4680996006201567,0.603300903362361,0.0,0.27504922866881076,0.0,0.4680996006201567,0.0,0.603300903362361,0.46474075906840445,0.0033588415517522563
+dp_eps10.0,dp,10.0,True,Fwd URG Flags,TCP flags,0.2744315661216714,17.601830463582345,0.6017999905319751,0.0,0.2744315661216714,0.0,17.601830463582345,0.0,0.6017999905319751,17.75132742398154,-0.14949696039919402
+dp_eps10.0,dp,10.0,True,Fwd Header Length,Headers & window,0.23564833751106112,63.12940787490503,0.508966485612795,2.9710253777221715e-06,0.2356453664856834,0.0,63.12940787490503,4.986424987927338e-05,0.5089166213629157,63.03333855531352,0.096069319591507
+dp_eps10.0,dp,10.0,True,Bwd Header Length,Headers & window,0.30993672617408796,905.004904513887,0.6898154752538374,4.361600607890479e-06,0.30993236457348006,0.0,905.004904513887,8.220890899728495e-05,0.6897332663448401,913.8023876958669,-8.797483181979828
+dp_eps10.0,dp,10.0,True,Fwd Packets/s,Rates & volumes,0.2061628138529752,0.9600906146958488,0.4760160604472899,0.005433196620147165,0.20072961723282803,0.0014067435050816694,0.9586838711907671,0.09643021710886765,0.37958584333842227,1.010591398027456,-0.050500783331607124
+dp_eps10.0,dp,10.0,True,Bwd Packets/s,Rates & volumes,0.2095555707992444,4.963257134483311,0.4719378141268429,3.451109615222382e-05,0.20952105970309218,0.00012288765772159034,4.9631342468255895,0.0004400970603749234,0.471497717066468,5.120318056118681,-0.15706092163537022
+dp_eps10.0,dp,10.0,True,Min Packet Length,Packet lengths,0.4141832750216408,258.4643158331198,1.8591401207457778,0.0,0.4141832750216408,0.0,258.4643158331198,0.0,1.8591401207457778,256.15463981898574,2.3096760141340837
+dp_eps10.0,dp,10.0,True,Max Packet Length,Packet lengths,0.1968349818147456,2.7641456033891503,0.46013312462001466,0.0,0.1968349818147456,0.0,2.7641456033891503,0.0,0.46013312462001466,3.0888073778400393,-0.32466177445088906
+dp_eps10.0,dp,10.0,True,Packet Length Mean,Packet lengths,0.44509060404910733,20.200854374136952,1.8934485108416848,0.0,0.44509060404910733,0.0,20.200854374136952,0.0,1.8934485108416848,20.585434690290498,-0.3845803161535457
+dp_eps10.0,dp,10.0,True,Packet Length Std,Packet lengths,0.2457107459434096,9.580652217074,0.7122864562684336,0.0,0.2457107459434096,0.0,9.580652217074,0.0,0.7122864562684336,9.916190703619522,-0.33553848654552176
+dp_eps10.0,dp,10.0,True,Packet Length Variance,Packet lengths,0.30941224309293935,61.52370814905486,0.8489316250316137,0.0,0.30941224309293935,0.0,61.52370814905486,0.0,0.8489316250316137,61.83256789454953,-0.3088597454946651
+dp_eps10.0,dp,10.0,True,FIN Flag Count,TCP flags,0.23332404065992687,132194663.96868742,0.5511564056410915,0.0,0.23332404065992687,0.0,132194663.96868742,0.0,0.5511564056410915,132976095.82681277,-781431.8581253588
+dp_eps10.0,dp,10.0,True,SYN Flag Count,TCP flags,0.20743820295102533,111025354.1427207,0.4990331589409232,0.0,0.20743820295102533,0.0,111025354.1427207,0.0,0.4990331589409232,108923615.4066573,2101738.736063406
+dp_eps10.0,dp,10.0,True,RST Flag Count,TCP flags,0.30950624838551327,1414236523.2804744,0.6901875778444748,0.0,0.30950624838551327,0.0,1414236523.2804744,0.0,0.6901875778444748,1420944991.276397,-6708467.995922565
+dp_eps10.0,dp,10.0,True,PSH Flag Count,TCP flags,0.031018990566559386,51220659.50009875,0.08417545480479444,0.0,0.031018990566559386,0.0,51220659.50009875,0.0,0.08417545480479444,51262395.273632005,-41735.77353325486
+dp_eps10.0,dp,10.0,True,ACK Flag Count,TCP flags,0.026694208395338117,49999532.11004601,0.0726617776119941,0.0,0.026694208395338117,0.0,49999532.11004601,0.0,0.0726617776119941,50592750.16083089,-593218.0507848859
+dp_eps10.0,dp,10.0,True,URG Flag Count,TCP flags,0.14493364463358233,77883693.17738517,0.3636812459569298,0.0,0.14493364463358233,0.0,77883693.17738517,0.0,0.3636812459569298,77646613.3913928,237079.78599236906
+dp_eps10.0,dp,10.0,True,CWE Flag Count,TCP flags,0.3107525422718878,4184434568.7867002,0.6920531352422856,0.0,0.3107525422718878,0.0,4184434568.7867002,0.0,0.6920531352422856,4160467364.9956737,23967203.791026592
+dp_eps10.0,dp,10.0,True,ECE Flag Count,TCP flags,0.30961071235623416,1410592286.106026,0.6904568483310407,0.0,0.30961071235623416,0.0,1410592286.106026,0.0,0.6904568483310407,1417848966.296431,-7256680.19040513
+dp_eps10.0,dp,10.0,True,Down/Up Ratio,Rates & volumes,0.32037460498234205,33732696.64201235,1.2050818900912328,0.0,0.32037460498234205,0.0,33732696.64201235,0.0,1.2050818900912328,33691026.304413795,41670.33759855479
+dp_eps10.0,dp,10.0,True,Average Packet Size,Packet lengths,0.43759354463849354,18.65129431226508,1.792860299390043,0.0,0.43759354463849354,0.0,18.65129431226508,0.0,1.792860299390043,18.96798631001102,-0.3166919977459415
+dp_eps10.0,dp,10.0,True,Avg Fwd Segment Size,Packet lengths,0.29822957905401987,33.15577113469298,0.8282129989753886,0.0,0.29822957905401987,0.0,33.15577113469298,0.0,0.8282129989753886,33.51272696033892,-0.3569558256459331
+dp_eps10.0,dp,10.0,True,Avg Bwd Segment Size,Packet lengths,0.3702438182671423,9.830234977171251,1.3942164012050378,0.0,0.3702438182671423,0.0,9.830234977171251,0.0,1.3942164012050378,10.360223486217928,-0.5299885090466763
+dp_eps10.0,dp,10.0,True,Subflow Fwd Packets,Packet counts,0.3109601617899784,30104.375272546305,0.6924640056441568,0.0,0.3109601617899784,0.0,30104.375272546305,0.0,0.6924640056441568,29502.653035112682,601.7222374336234
+dp_eps10.0,dp,10.0,True,Subflow Fwd Bytes,Packet counts,0.31149214453137286,148018426.72919062,0.6951567454507258,0.0,0.31149214453137286,0.0,148018426.72919062,0.0,0.6951567454507258,145260591.34334686,2757835.385843754
+dp_eps10.0,dp,10.0,True,Subflow Bwd Packets,Packet counts,0.31070862532520144,22031.021394977353,0.6918385888728636,0.0,0.31070862532520144,0.0,22031.021394977353,0.0,0.6918385888728636,22175.238834986667,-144.21744000931358
+dp_eps10.0,dp,10.0,True,Subflow Bwd Bytes,Packet counts,0.31134477689113765,647298.1596060916,0.693379621082784,0.0,0.31134477689113765,0.0,647298.1596060916,0.0,0.693379621082784,640485.3321198302,6812.827486261376
+dp_eps10.0,dp,10.0,True,Init_Win_bytes_forward,Headers & window,0.3045966346645787,0.3578269875968662,0.8596339027085191,0.0,0.3045966346645787,0.0,0.3578269875968662,0.0,0.8596339027085191,0.44893977457482814,-0.09111278697796193
+dp_eps10.0,dp,10.0,True,Init_Win_bytes_backward,Headers & window,0.2013964838021994,0.6839031591209048,0.4773648370886656,0.0,0.2013964838021994,0.0,0.6839031591209048,0.0,0.4773648370886656,0.7343461470939135,-0.050442987973008724
+dp_eps10.0,dp,10.0,True,act_data_pkt_fwd,Packet counts,0.3111169847060397,35033.3833385639,0.6928262259877197,0.0,0.3111169847060397,0.0,35033.3833385639,0.0,0.6928262259877197,34752.33857058959,281.04476797430834
+dp_eps10.0,dp,10.0,True,min_seg_size_forward,Packet lengths,6.7423901125740475e-06,0.005639306831868392,0.00013734361983728545,6.7423901125740475e-06,0.0,0.0,0.005639306831868392,0.00013734361983728545,0.0,0.005699894026789118,-6.058719492072623e-05
+dp_eps10.0,dp,10.0,True,Active Mean,Flow timing,0.24096638565002815,17.510216365878154,0.5437226225879936,0.0,0.24096638565002815,0.0,17.510216365878154,0.0,0.5437226225879936,17.476145073412333,0.0340712924658213
+dp_eps10.0,dp,10.0,True,Active Std,Flow timing,0.2573354200016661,28.762434075143197,0.5779858274663363,0.0,0.2573354200016661,0.0,28.762434075143197,0.0,0.5779858274663363,28.805685520868572,-0.04325144572537454
+dp_eps10.0,dp,10.0,True,Active Max,Flow timing,0.2186461912434527,10.866580793422633,0.49958548763977234,0.0,0.2186461912434527,0.0,10.866580793422633,0.0,0.49958548763977234,11.054088533127706,-0.1875077397050724
+dp_eps10.0,dp,10.0,True,Active Min,Flow timing,0.24864757943438587,19.467361948425708,0.5587240544235533,0.0,0.24864757943438587,0.0,19.467361948425708,0.0,0.5587240544235533,19.634841167090773,-0.16747921866506488
+dp_eps10.0,dp,10.0,True,Idle Mean,Flow timing,0.20286968699474012,0.40639636549998337,0.4960262437313041,0.0,0.20286968699474012,0.0,0.40639636549998337,0.0,0.4960262437313041,0.48293270123973003,-0.07653633573974666
+dp_eps10.0,dp,10.0,True,Idle Std,Flow timing,0.24185635709289957,2.449044290243538,0.5504767201340042,0.0,0.24185635709289957,0.0,2.449044290243538,0.0,0.5504767201340042,2.4619581347643047,-0.012913844520766826
+dp_eps10.0,dp,10.0,True,Idle Max,Flow timing,0.2139563787338604,0.4023123927868288,0.518499379336171,0.0,0.2139563787338604,0.0,0.4023123927868288,0.0,0.518499379336171,0.4684305446029694,-0.06611815181614061
+dp_eps10.0,dp,10.0,True,Idle Min,Flow timing,0.20011083287617934,0.42076769203397824,0.4835486077407835,0.0,0.20011083287617934,0.0,0.42076769203397824,0.0,0.4835486077407835,0.4881733322520676,-0.06740564021808937
+dp_clip_only,dp_clip,inf,True,Flow Duration,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Total Fwd Packets,Packet counts,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Total Backward Packets,Packet counts,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Total Length of Fwd Packets,Packet counts,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Total Length of Bwd Packets,Packet counts,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Fwd Packet Length Max,Packet lengths,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Fwd Packet Length Min,Packet lengths,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Fwd Packet Length Mean,Packet lengths,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Fwd Packet Length Std,Packet lengths,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Bwd Packet Length Max,Packet lengths,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Bwd Packet Length Min,Packet lengths,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Bwd Packet Length Mean,Packet lengths,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Bwd Packet Length Std,Packet lengths,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Flow Bytes/s,Rates & volumes,0.0010278079618858155,0.010846478640141172,0.01738323801967163,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Flow Packets/s,Rates & volumes,0.006053432995836729,0.001973977782878242,0.10801522908735217,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Flow IAT Mean,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Flow IAT Std,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Flow IAT Max,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Flow IAT Min,Flow timing,0.0,5.308025769478766e-10,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Fwd IAT Total,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Fwd IAT Mean,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Fwd IAT Std,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Fwd IAT Max,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Fwd IAT Min,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Bwd IAT Total,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Bwd IAT Mean,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Bwd IAT Std,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Bwd IAT Max,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Bwd IAT Min,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Fwd PSH Flags,TCP flags,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Fwd URG Flags,TCP flags,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Fwd Header Length,Headers & window,2.9710253777221715e-06,0.0,4.986424987927338e-05,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Bwd Header Length,Headers & window,4.361600607890479e-06,0.0,8.220890899728495e-05,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Fwd Packets/s,Rates & volumes,0.005433196620147165,0.0014067435050816694,0.09643021710886765,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Bwd Packets/s,Rates & volumes,3.451109615222382e-05,0.00012288765772159034,0.0004400970603749234,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Min Packet Length,Packet lengths,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Max Packet Length,Packet lengths,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Packet Length Mean,Packet lengths,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Packet Length Std,Packet lengths,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Packet Length Variance,Packet lengths,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,FIN Flag Count,TCP flags,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,SYN Flag Count,TCP flags,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,RST Flag Count,TCP flags,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,PSH Flag Count,TCP flags,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,ACK Flag Count,TCP flags,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,URG Flag Count,TCP flags,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,CWE Flag Count,TCP flags,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,ECE Flag Count,TCP flags,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Down/Up Ratio,Rates & volumes,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Average Packet Size,Packet lengths,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Avg Fwd Segment Size,Packet lengths,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Avg Bwd Segment Size,Packet lengths,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Subflow Fwd Packets,Packet counts,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Subflow Fwd Bytes,Packet counts,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Subflow Bwd Packets,Packet counts,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Subflow Bwd Bytes,Packet counts,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Init_Win_bytes_forward,Headers & window,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Init_Win_bytes_backward,Headers & window,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,act_data_pkt_fwd,Packet counts,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,min_seg_size_forward,Packet lengths,6.7423901125740475e-06,0.0,0.00013734361983728545,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Active Mean,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Active Std,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Active Max,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Active Min,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Idle Mean,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Idle Std,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Idle Max,Flow timing,0.0,0.0,0.0,,,,,,,,
+dp_clip_only,dp_clip,inf,True,Idle Min,Flow timing,0.0,0.0,0.0,,,,,,,,

@@ -1,0 +1,69 @@
+feature,category,a_j,b_j,delta_f,bound_source
+Flow Duration,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Total Fwd Packets,Packet counts,0,234375000.0,234375000.0,pkt_max = 120s × 1.95e+06 pkt/s (IEEE 802.3 1 GbE)
+Total Backward Packets,Packet counts,0,234375000.0,234375000.0,pkt_max = 120s × 1.95e+06 pkt/s (IEEE 802.3 1 GbE)
+Total Length of Fwd Packets,Packet counts,0,15359765625000.0,15359765625000.0,B_max = pkt_max × 65535 (RFC791 × IEEE 802.3)
+Total Length of Bwd Packets,Packet counts,0,15359765625000.0,15359765625000.0,B_max = pkt_max × 65535 (RFC791 × IEEE 802.3)
+Fwd Packet Length Max,Packet lengths,0,65535.0,65535.0,16-bit IP total-length field (RFC 791)
+Fwd Packet Length Min,Packet lengths,0,65535.0,65535.0,16-bit IP total-length field (RFC 791)
+Fwd Packet Length Mean,Packet lengths,0,65535.0,65535.0,16-bit IP total-length field (RFC 791)
+Fwd Packet Length Std,Packet lengths,0,65535.0,65535.0,16-bit IP total-length field (RFC 791)
+Bwd Packet Length Max,Packet lengths,0,65535.0,65535.0,16-bit IP total-length field (RFC 791)
+Bwd Packet Length Min,Packet lengths,0,65535.0,65535.0,16-bit IP total-length field (RFC 791)
+Bwd Packet Length Mean,Packet lengths,0,65535.0,65535.0,16-bit IP total-length field (RFC 791)
+Bwd Packet Length Std,Packet lengths,0,65535.0,65535.0,16-bit IP total-length field (RFC 791)
+Flow Bytes/s,Rates & volumes,0,125000000.0,125000000.0,Link capacity bytes/s: 1 GbE = 1.25×10⁸ B/s (IEEE 802.3ab) — tighter-public branch
+Flow Packets/s,Rates & volumes,0,1953125.0,1953125.0,Line-rate packet rate: 1 GbE ≈ 1.49×10⁶ pkt/s (IEEE 802.3ab min-frame) — tighter-public branch
+Flow IAT Mean,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Flow IAT Std,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Flow IAT Max,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Flow IAT Min,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Fwd IAT Total,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Fwd IAT Mean,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Fwd IAT Std,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Fwd IAT Max,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Fwd IAT Min,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Bwd IAT Total,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Bwd IAT Mean,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Bwd IAT Std,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Bwd IAT Max,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Bwd IAT Min,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Fwd PSH Flags,TCP flags,0,1.0,1.0,CICFlowMeter binary indicator (0/1 per direction) — verified in §8
+Fwd URG Flags,TCP flags,0,1.0,1.0,CICFlowMeter binary indicator (0/1 per direction) — verified in §8
+Fwd Header Length,Headers & window,0,14062500000.0,14062500000.0,Per-flow sum: pkt_max × 60 bytes (RFC793 TCP max header) — wide-range
+Bwd Header Length,Headers & window,0,14062500000.0,14062500000.0,Per-flow sum: pkt_max × 60 bytes (RFC793 TCP max header) — wide-range
+Fwd Packets/s,Rates & volumes,0,1953125.0,1953125.0,Line-rate packet rate: 1 GbE ≈ 1.49×10⁶ pkt/s (IEEE 802.3ab min-frame) — tighter-public branch
+Bwd Packets/s,Rates & volumes,0,1953125.0,1953125.0,Line-rate packet rate: 1 GbE ≈ 1.49×10⁶ pkt/s (IEEE 802.3ab min-frame) — tighter-public branch
+Min Packet Length,Packet lengths,0,65535.0,65535.0,16-bit IP total-length field (RFC 791)
+Max Packet Length,Packet lengths,0,65535.0,65535.0,16-bit IP total-length field (RFC 791)
+Packet Length Mean,Packet lengths,0,65535.0,65535.0,16-bit IP total-length field (RFC 791)
+Packet Length Std,Packet lengths,0,65535.0,65535.0,16-bit IP total-length field (RFC 791)
+Packet Length Variance,Packet lengths,0,1073709056.25,1073709056.25,"Popoviciu's ineq: var ≤ (max-min)²/4, max-min=65535"
+FIN Flag Count,TCP flags,0,234375000.0,234375000.0,Per-flow packet count; pkt_max = 2.34e+08 (IEEE 802.3 + CICFlowMeter timeout)
+SYN Flag Count,TCP flags,0,234375000.0,234375000.0,Per-flow packet count; pkt_max = 2.34e+08 (IEEE 802.3 + CICFlowMeter timeout)
+RST Flag Count,TCP flags,0,234375000.0,234375000.0,Per-flow packet count; pkt_max = 2.34e+08 (IEEE 802.3 + CICFlowMeter timeout)
+PSH Flag Count,TCP flags,0,234375000.0,234375000.0,Per-flow packet count; pkt_max = 2.34e+08 (IEEE 802.3 + CICFlowMeter timeout)
+ACK Flag Count,TCP flags,0,234375000.0,234375000.0,Per-flow packet count; pkt_max = 2.34e+08 (IEEE 802.3 + CICFlowMeter timeout)
+URG Flag Count,TCP flags,0,234375000.0,234375000.0,Per-flow packet count; pkt_max = 2.34e+08 (IEEE 802.3 + CICFlowMeter timeout)
+CWE Flag Count,TCP flags,0,234375000.0,234375000.0,Per-flow packet count; pkt_max = 2.34e+08 (IEEE 802.3 + CICFlowMeter timeout)
+ECE Flag Count,TCP flags,0,234375000.0,234375000.0,Per-flow packet count; pkt_max = 2.34e+08 (IEEE 802.3 + CICFlowMeter timeout)
+Down/Up Ratio,Rates & volumes,0,234375000.0,234375000.0,Loose bound: ratio = Bwd/Fwd pkts ≤ pkt_max (when Fwd=1); verify semantics in EDA
+Average Packet Size,Packet lengths,0,65535.0,65535.0,16-bit IP total-length field (RFC 791)
+Avg Fwd Segment Size,Packet lengths,0,65535.0,65535.0,16-bit IP total-length field (RFC 791)
+Avg Bwd Segment Size,Packet lengths,0,65535.0,65535.0,16-bit IP total-length field (RFC 791)
+Subflow Fwd Packets,Packet counts,0,234375000.0,234375000.0,pkt_max = 120s × 1.95e+06 pkt/s (IEEE 802.3 1 GbE)
+Subflow Fwd Bytes,Packet counts,0,15359765625000.0,15359765625000.0,B_max = pkt_max × 65535 (RFC791 × IEEE 802.3)
+Subflow Bwd Packets,Packet counts,0,234375000.0,234375000.0,pkt_max = 120s × 1.95e+06 pkt/s (IEEE 802.3 1 GbE)
+Subflow Bwd Bytes,Packet counts,0,15359765625000.0,15359765625000.0,B_max = pkt_max × 65535 (RFC791 × IEEE 802.3)
+Init_Win_bytes_forward,Headers & window,-1,65535.0,65536.0,TCP 16-bit receive-window (RFC793); -1 = CICFlowMeter sentinel for not-observed
+Init_Win_bytes_backward,Headers & window,-1,65535.0,65536.0,TCP 16-bit receive-window (RFC793); -1 = CICFlowMeter sentinel for not-observed
+act_data_pkt_fwd,Packet counts,0,234375000.0,234375000.0,pkt_max = 120s × 1.95e+06 pkt/s (IEEE 802.3 1 GbE)
+min_seg_size_forward,Packet lengths,0,65535.0,65535.0,16-bit IP total-length field (RFC 791)
+Active Mean,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Active Std,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Active Max,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Active Min,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Idle Mean,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Idle Std,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Idle Max,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
+Idle Min,Flow timing,0,120000000.0,120000000.0,CICFlowMeter active-timeout=120s × 1e6 µs/s
