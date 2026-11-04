@@ -36,6 +36,7 @@ results/
   top15_features_by_jsd.csv   # the 15 features with the highest mean JSD (written by NB4)
 figures/
   eda/                        # exploratory figures
+  experiment/                 # result figures: JSD/W1/KL heatmaps, DP epsilon-curve, Spearman rho (written by NB4)
 ```
  
 ## Data (not included)
